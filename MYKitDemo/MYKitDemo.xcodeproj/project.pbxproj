@@ -32,6 +32,8 @@
 		32077C541F5FFBFE006E4C70 /* UIImage+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C531F5FFBFE006E4C70 /* UIImage+Screenshot.m */; };
 		32077C571F600133006E4C70 /* UIImage+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C561F600133006E4C70 /* UIImage+CornerRadius.m */; };
 		32077C5A1F60038A006E4C70 /* UIImage+Effect.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C591F60038A006E4C70 /* UIImage+Effect.m */; };
+		32077C611F600AA5006E4C70 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C601F600AA5006E4C70 /* UIColor+Random.m */; };
+		32077C641F600AE8006E4C70 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C631F600AE8006E4C70 /* UIColor+Hex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +105,10 @@
 		32077C561F600133006E4C70 /* UIImage+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CornerRadius.m"; sourceTree = "<group>"; };
 		32077C581F60038A006E4C70 /* UIImage+Effect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Effect.h"; sourceTree = "<group>"; };
 		32077C591F60038A006E4C70 /* UIImage+Effect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Effect.m"; sourceTree = "<group>"; };
+		32077C5F1F600AA5006E4C70 /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
+		32077C601F600AA5006E4C70 /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
+		32077C621F600AE8006E4C70 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		32077C631F600AE8006E4C70 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +219,7 @@
 		32077C231F5FEEA8006E4C70 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				32077C5E1F600A80006E4C70 /* UIColor */,
 				32077C4E1F5FF9EA006E4C70 /* UIImage */,
 				32077C381F5FF394006E4C70 /* UIView */,
 				32077C341F5FF245006E4C70 /* UIAlertView */,
@@ -281,6 +288,17 @@
 				32077C591F60038A006E4C70 /* UIImage+Effect.m */,
 			);
 			path = UIImage;
+			sourceTree = "<group>";
+		};
+		32077C5E1F600A80006E4C70 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				32077C5F1F600AA5006E4C70 /* UIColor+Random.h */,
+				32077C601F600AA5006E4C70 /* UIColor+Random.m */,
+				32077C621F600AE8006E4C70 /* UIColor+Hex.h */,
+				32077C631F600AE8006E4C70 /* UIColor+Hex.m */,
+			);
+			path = UIColor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -416,6 +434,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32077C611F600AA5006E4C70 /* UIColor+Random.m in Sources */,
 				32077C2A1F5FEF7B006E4C70 /* UIImageView+Reflect.m in Sources */,
 				32077C471F5FF5F7006E4C70 /* UIView+Shake.m in Sources */,
 				32077C2D1F5FEFAA006E4C70 /* UIImageView+FaceAwareFill.m in Sources */,
@@ -434,6 +453,7 @@
 				32077C541F5FFBFE006E4C70 /* UIImage+Screenshot.m in Sources */,
 				32077C301F5FEFF1006E4C70 /* UIImageView+Letters.m in Sources */,
 				32077C4D1F5FF827006E4C70 /* UIView+CustomBorder.m in Sources */,
+				32077C641F600AE8006E4C70 /* UIColor+Hex.m in Sources */,
 				32077C331F5FF0AC006E4C70 /* UIImageView+BetterFace.m in Sources */,
 				32077C3E1F5FF410006E4C70 /* UIView+Gesture.m in Sources */,
 			);
