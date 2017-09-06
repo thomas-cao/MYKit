@@ -20,6 +20,7 @@
 		32077C2D1F5FEFAA006E4C70 /* UIImageView+FaceAwareFill.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C2C1F5FEFAA006E4C70 /* UIImageView+FaceAwareFill.m */; };
 		32077C301F5FEFF1006E4C70 /* UIImageView+Letters.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C2F1F5FEFF1006E4C70 /* UIImageView+Letters.m */; };
 		32077C331F5FF0AC006E4C70 /* UIImageView+BetterFace.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C321F5FF0AC006E4C70 /* UIImageView+BetterFace.m */; };
+		32077C371F5FF262006E4C70 /* UIAlertView+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C361F5FF262006E4C70 /* UIAlertView+Block.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		32077C2F1F5FEFF1006E4C70 /* UIImageView+Letters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Letters.m"; sourceTree = "<group>"; };
 		32077C311F5FF0AC006E4C70 /* UIImageView+BetterFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+BetterFace.h"; sourceTree = "<group>"; };
 		32077C321F5FF0AC006E4C70 /* UIImageView+BetterFace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+BetterFace.m"; sourceTree = "<group>"; };
+		32077C351F5FF262006E4C70 /* UIAlertView+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Block.h"; sourceTree = "<group>"; };
+		32077C361F5FF262006E4C70 /* UIAlertView+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Block.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +180,7 @@
 		32077C231F5FEEA8006E4C70 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				32077C341F5FF245006E4C70 /* UIAlertView */,
 				32077C241F5FEEDF006E4C70 /* UIImageView */,
 			);
 			path = UIKit;
@@ -197,6 +201,15 @@
 				32077C321F5FF0AC006E4C70 /* UIImageView+BetterFace.m */,
 			);
 			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		32077C341F5FF245006E4C70 /* UIAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				32077C351F5FF262006E4C70 /* UIAlertView+Block.h */,
+				32077C361F5FF262006E4C70 /* UIAlertView+Block.m */,
+			);
+			path = UIAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,6 +351,7 @@
 				32077C271F5FEEF7006E4C70 /* UIImageView+CornerRadius.m in Sources */,
 				32077BF21F5FEC6F006E4C70 /* AppDelegate.m in Sources */,
 				32077BEF1F5FEC6F006E4C70 /* main.m in Sources */,
+				32077C371F5FF262006E4C70 /* UIAlertView+Block.m in Sources */,
 				32077C301F5FEFF1006E4C70 /* UIImageView+Letters.m in Sources */,
 				32077C331F5FF0AC006E4C70 /* UIImageView+BetterFace.m in Sources */,
 			);
@@ -491,6 +505,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MYKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.51fanxing.MYKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -502,6 +517,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MYKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.51fanxing.MYKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
