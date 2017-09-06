@@ -37,6 +37,7 @@
 		32077C681F600C3A006E4C70 /* UINavigationItem+Loading.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C671F600C3A006E4C70 /* UINavigationItem+Loading.m */; };
 		32077C6B1F600C7A006E4C70 /* UINavigationItem+Margin.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C6A1F600C7A006E4C70 /* UINavigationItem+Margin.m */; };
 		32077C6E1F600CCC006E4C70 /* UINavigationItem+Target.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C6D1F600CCC006E4C70 /* UINavigationItem+Target.m */; };
+		32077C721F600ED5006E4C70 /* UIResponder+Router.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C711F600ED5006E4C70 /* UIResponder+Router.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,6 +119,8 @@
 		32077C6A1F600C7A006E4C70 /* UINavigationItem+Margin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+Margin.m"; sourceTree = "<group>"; };
 		32077C6C1F600CCC006E4C70 /* UINavigationItem+Target.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+Target.h"; sourceTree = "<group>"; };
 		32077C6D1F600CCC006E4C70 /* UINavigationItem+Target.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+Target.m"; sourceTree = "<group>"; };
+		32077C701F600ED5006E4C70 /* UIResponder+Router.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Router.h"; sourceTree = "<group>"; };
+		32077C711F600ED5006E4C70 /* UIResponder+Router.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Router.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +231,7 @@
 		32077C231F5FEEA8006E4C70 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				32077C6F1F600EB9006E4C70 /* UIResponder */,
 				32077C651F600C22006E4C70 /* UINavigationItem */,
 				32077C5E1F600A80006E4C70 /* UIColor */,
 				32077C4E1F5FF9EA006E4C70 /* UIImage */,
@@ -322,6 +326,15 @@
 				32077C6D1F600CCC006E4C70 /* UINavigationItem+Target.m */,
 			);
 			path = UINavigationItem;
+			sourceTree = "<group>";
+		};
+		32077C6F1F600EB9006E4C70 /* UIResponder */ = {
+			isa = PBXGroup;
+			children = (
+				32077C701F600ED5006E4C70 /* UIResponder+Router.h */,
+				32077C711F600ED5006E4C70 /* UIResponder+Router.m */,
+			);
+			path = UIResponder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -478,6 +491,7 @@
 				32077C541F5FFBFE006E4C70 /* UIImage+Screenshot.m in Sources */,
 				32077C301F5FEFF1006E4C70 /* UIImageView+Letters.m in Sources */,
 				32077C681F600C3A006E4C70 /* UINavigationItem+Loading.m in Sources */,
+				32077C721F600ED5006E4C70 /* UIResponder+Router.m in Sources */,
 				32077C4D1F5FF827006E4C70 /* UIView+CustomBorder.m in Sources */,
 				32077C641F600AE8006E4C70 /* UIColor+Hex.m in Sources */,
 				32077C331F5FF0AC006E4C70 /* UIImageView+BetterFace.m in Sources */,
