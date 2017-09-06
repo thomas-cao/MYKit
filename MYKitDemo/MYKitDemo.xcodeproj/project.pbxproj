@@ -15,6 +15,11 @@
 		32077BFD1F5FEC6F006E4C70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32077BFB1F5FEC6F006E4C70 /* LaunchScreen.storyboard */; };
 		32077C081F5FEC6F006E4C70 /* MYKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C071F5FEC6F006E4C70 /* MYKitDemoTests.m */; };
 		32077C131F5FEC6F006E4C70 /* MYKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C121F5FEC6F006E4C70 /* MYKitDemoUITests.m */; };
+		32077C271F5FEEF7006E4C70 /* UIImageView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C261F5FEEF7006E4C70 /* UIImageView+CornerRadius.m */; };
+		32077C2A1F5FEF7B006E4C70 /* UIImageView+Reflect.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C291F5FEF7B006E4C70 /* UIImageView+Reflect.m */; };
+		32077C2D1F5FEFAA006E4C70 /* UIImageView+FaceAwareFill.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C2C1F5FEFAA006E4C70 /* UIImageView+FaceAwareFill.m */; };
+		32077C301F5FEFF1006E4C70 /* UIImageView+Letters.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C2F1F5FEFF1006E4C70 /* UIImageView+Letters.m */; };
+		32077C331F5FF0AC006E4C70 /* UIImageView+BetterFace.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C321F5FF0AC006E4C70 /* UIImageView+BetterFace.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,17 @@
 		32077C0E1F5FEC6F006E4C70 /* MYKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32077C121F5FEC6F006E4C70 /* MYKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYKitDemoUITests.m; sourceTree = "<group>"; };
 		32077C141F5FEC6F006E4C70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32077C211F5FED7B006E4C70 /* MYKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYKit.h; sourceTree = "<group>"; };
+		32077C251F5FEEF7006E4C70 /* UIImageView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CornerRadius.h"; sourceTree = "<group>"; };
+		32077C261F5FEEF7006E4C70 /* UIImageView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CornerRadius.m"; sourceTree = "<group>"; };
+		32077C281F5FEF7B006E4C70 /* UIImageView+Reflect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Reflect.h"; sourceTree = "<group>"; };
+		32077C291F5FEF7B006E4C70 /* UIImageView+Reflect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Reflect.m"; sourceTree = "<group>"; };
+		32077C2B1F5FEFAA006E4C70 /* UIImageView+FaceAwareFill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+FaceAwareFill.h"; sourceTree = "<group>"; };
+		32077C2C1F5FEFAA006E4C70 /* UIImageView+FaceAwareFill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+FaceAwareFill.m"; sourceTree = "<group>"; };
+		32077C2E1F5FEFF1006E4C70 /* UIImageView+Letters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Letters.h"; sourceTree = "<group>"; };
+		32077C2F1F5FEFF1006E4C70 /* UIImageView+Letters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Letters.m"; sourceTree = "<group>"; };
+		32077C311F5FF0AC006E4C70 /* UIImageView+BetterFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+BetterFace.h"; sourceTree = "<group>"; };
+		32077C321F5FF0AC006E4C70 /* UIImageView+BetterFace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+BetterFace.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +97,7 @@
 		32077BE11F5FEC6F006E4C70 = {
 			isa = PBXGroup;
 			children = (
+				32077C201F5FECF5006E4C70 /* MYKit */,
 				32077BEC1F5FEC6F006E4C70 /* MYKitDemo */,
 				32077C061F5FEC6F006E4C70 /* MYKitDemoTests */,
 				32077C111F5FEC6F006E4C70 /* MYKitDemoUITests */,
@@ -138,6 +155,48 @@
 				32077C141F5FEC6F006E4C70 /* Info.plist */,
 			);
 			path = MYKitDemoUITests;
+			sourceTree = "<group>";
+		};
+		32077C201F5FECF5006E4C70 /* MYKit */ = {
+			isa = PBXGroup;
+			children = (
+				32077C211F5FED7B006E4C70 /* MYKit.h */,
+				32077C231F5FEEA8006E4C70 /* UIKit */,
+				32077C221F5FEE96006E4C70 /* Foundation */,
+			);
+			path = MYKit;
+			sourceTree = "<group>";
+		};
+		32077C221F5FEE96006E4C70 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		32077C231F5FEEA8006E4C70 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				32077C241F5FEEDF006E4C70 /* UIImageView */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		32077C241F5FEEDF006E4C70 /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				32077C251F5FEEF7006E4C70 /* UIImageView+CornerRadius.h */,
+				32077C261F5FEEF7006E4C70 /* UIImageView+CornerRadius.m */,
+				32077C281F5FEF7B006E4C70 /* UIImageView+Reflect.h */,
+				32077C291F5FEF7B006E4C70 /* UIImageView+Reflect.m */,
+				32077C2B1F5FEFAA006E4C70 /* UIImageView+FaceAwareFill.h */,
+				32077C2C1F5FEFAA006E4C70 /* UIImageView+FaceAwareFill.m */,
+				32077C2E1F5FEFF1006E4C70 /* UIImageView+Letters.h */,
+				32077C2F1F5FEFF1006E4C70 /* UIImageView+Letters.m */,
+				32077C311F5FF0AC006E4C70 /* UIImageView+BetterFace.h */,
+				32077C321F5FF0AC006E4C70 /* UIImageView+BetterFace.m */,
+			);
+			path = UIImageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +332,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32077C2A1F5FEF7B006E4C70 /* UIImageView+Reflect.m in Sources */,
+				32077C2D1F5FEFAA006E4C70 /* UIImageView+FaceAwareFill.m in Sources */,
 				32077BF51F5FEC6F006E4C70 /* ViewController.m in Sources */,
+				32077C271F5FEEF7006E4C70 /* UIImageView+CornerRadius.m in Sources */,
 				32077BF21F5FEC6F006E4C70 /* AppDelegate.m in Sources */,
 				32077BEF1F5FEC6F006E4C70 /* main.m in Sources */,
+				32077C301F5FEFF1006E4C70 /* UIImageView+Letters.m in Sources */,
+				32077C331F5FF0AC006E4C70 /* UIImageView+BetterFace.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +573,7 @@
 				32077C191F5FEC6F006E4C70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32077C1A1F5FEC6F006E4C70 /* Build configuration list for PBXNativeTarget "MYKitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +582,7 @@
 				32077C1C1F5FEC6F006E4C70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32077C1D1F5FEC6F006E4C70 /* Build configuration list for PBXNativeTarget "MYKitDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +591,7 @@
 				32077C1F1F5FEC6F006E4C70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
