@@ -1,6 +1,6 @@
 //
-//  MYKitTests.m
-//  MYKitTests
+//  MYKitDemoTests.m
+//  MYKitDemoTests
 //
 //  Created by sunjinshuai on 2017/9/6.
 //  Copyright © 2017年 com.51fanxing. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface MYKitTests : XCTestCase
+@interface MYKitDemoTests : XCTestCase
 
 @end
 
-@implementation MYKitTests
+@implementation MYKitDemoTests
 
 - (void)setUp {
     [super setUp];
