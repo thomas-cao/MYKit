@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "UIImage+CornerRadius.h"
+#import "UIImage+Color.h"
+#import "UIImageView+CornerRadius.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 @end
 
@@ -16,7 +20,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+//    self.imageView.myCornerRadius = 50.0f;
+    
+    self.imageView.image = [self.imageView.image circleImage];
 }
 
 

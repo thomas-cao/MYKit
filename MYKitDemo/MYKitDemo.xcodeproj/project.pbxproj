@@ -28,6 +28,10 @@
 		32077C471F5FF5F7006E4C70 /* UIView+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C461F5FF5F7006E4C70 /* UIView+Shake.m */; };
 		32077C4A1F5FF6FC006E4C70 /* UIView+Visuals.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C491F5FF6FC006E4C70 /* UIView+Visuals.m */; };
 		32077C4D1F5FF827006E4C70 /* UIView+CustomBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C4C1F5FF827006E4C70 /* UIView+CustomBorder.m */; };
+		32077C511F5FFA19006E4C70 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C501F5FFA19006E4C70 /* UIImage+Color.m */; };
+		32077C541F5FFBFE006E4C70 /* UIImage+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C531F5FFBFE006E4C70 /* UIImage+Screenshot.m */; };
+		32077C571F600133006E4C70 /* UIImage+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C561F600133006E4C70 /* UIImage+CornerRadius.m */; };
+		32077C5A1F60038A006E4C70 /* UIImage+Effect.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C591F60038A006E4C70 /* UIImage+Effect.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +95,14 @@
 		32077C491F5FF6FC006E4C70 /* UIView+Visuals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Visuals.m"; sourceTree = "<group>"; };
 		32077C4B1F5FF827006E4C70 /* UIView+CustomBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CustomBorder.h"; sourceTree = "<group>"; };
 		32077C4C1F5FF827006E4C70 /* UIView+CustomBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CustomBorder.m"; sourceTree = "<group>"; };
+		32077C4F1F5FFA19006E4C70 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		32077C501F5FFA19006E4C70 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		32077C521F5FFBFE006E4C70 /* UIImage+Screenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Screenshot.h"; sourceTree = "<group>"; };
+		32077C531F5FFBFE006E4C70 /* UIImage+Screenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Screenshot.m"; sourceTree = "<group>"; };
+		32077C551F600133006E4C70 /* UIImage+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CornerRadius.h"; sourceTree = "<group>"; };
+		32077C561F600133006E4C70 /* UIImage+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CornerRadius.m"; sourceTree = "<group>"; };
+		32077C581F60038A006E4C70 /* UIImage+Effect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Effect.h"; sourceTree = "<group>"; };
+		32077C591F60038A006E4C70 /* UIImage+Effect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Effect.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +213,7 @@
 		32077C231F5FEEA8006E4C70 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				32077C4E1F5FF9EA006E4C70 /* UIImage */,
 				32077C381F5FF394006E4C70 /* UIView */,
 				32077C341F5FF245006E4C70 /* UIAlertView */,
 				32077C241F5FEEDF006E4C70 /* UIImageView */,
@@ -253,6 +266,21 @@
 				32077C4C1F5FF827006E4C70 /* UIView+CustomBorder.m */,
 			);
 			path = UIView;
+			sourceTree = "<group>";
+		};
+		32077C4E1F5FF9EA006E4C70 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				32077C4F1F5FFA19006E4C70 /* UIImage+Color.h */,
+				32077C501F5FFA19006E4C70 /* UIImage+Color.m */,
+				32077C521F5FFBFE006E4C70 /* UIImage+Screenshot.h */,
+				32077C531F5FFBFE006E4C70 /* UIImage+Screenshot.m */,
+				32077C551F600133006E4C70 /* UIImage+CornerRadius.h */,
+				32077C561F600133006E4C70 /* UIImage+CornerRadius.m */,
+				32077C581F60038A006E4C70 /* UIImage+Effect.h */,
+				32077C591F60038A006E4C70 /* UIImage+Effect.m */,
+			);
+			path = UIImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -391,6 +419,8 @@
 				32077C2A1F5FEF7B006E4C70 /* UIImageView+Reflect.m in Sources */,
 				32077C471F5FF5F7006E4C70 /* UIView+Shake.m in Sources */,
 				32077C2D1F5FEFAA006E4C70 /* UIImageView+FaceAwareFill.m in Sources */,
+				32077C511F5FFA19006E4C70 /* UIImage+Color.m in Sources */,
+				32077C5A1F60038A006E4C70 /* UIImage+Effect.m in Sources */,
 				32077BF51F5FEC6F006E4C70 /* ViewController.m in Sources */,
 				32077C3B1F5FF3CD006E4C70 /* UIView+Position.m in Sources */,
 				32077C271F5FEEF7006E4C70 /* UIImageView+CornerRadius.m in Sources */,
@@ -399,7 +429,9 @@
 				32077BEF1F5FEC6F006E4C70 /* main.m in Sources */,
 				32077C4A1F5FF6FC006E4C70 /* UIView+Visuals.m in Sources */,
 				32077C371F5FF262006E4C70 /* UIAlertView+Block.m in Sources */,
+				32077C571F600133006E4C70 /* UIImage+CornerRadius.m in Sources */,
 				32077C441F5FF52E006E4C70 /* UIView+Screenshot.m in Sources */,
+				32077C541F5FFBFE006E4C70 /* UIImage+Screenshot.m in Sources */,
 				32077C301F5FEFF1006E4C70 /* UIImageView+Letters.m in Sources */,
 				32077C4D1F5FF827006E4C70 /* UIView+CustomBorder.m in Sources */,
 				32077C331F5FF0AC006E4C70 /* UIImageView+BetterFace.m in Sources */,
