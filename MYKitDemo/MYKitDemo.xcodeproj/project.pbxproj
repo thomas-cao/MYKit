@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		320695A41F600F780009FFDA /* UIResponder+Chain.m in Sources */ = {isa = PBXBuildFile; fileRef = 320695A31F600F780009FFDA /* UIResponder+Chain.m */; };
+		320695A81F6010070009FFDA /* UIButton+CountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 320695A71F6010070009FFDA /* UIButton+CountDown.m */; };
+		320695AF1F6010680009FFDA /* UILabel+CountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 320695AE1F6010680009FFDA /* UILabel+CountDown.m */; };
 		32077BEF1F5FEC6F006E4C70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077BEE1F5FEC6F006E4C70 /* main.m */; };
 		32077BF21F5FEC6F006E4C70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077BF11F5FEC6F006E4C70 /* AppDelegate.m */; };
 		32077BF51F5FEC6F006E4C70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077BF41F5FEC6F006E4C70 /* ViewController.m */; };
@@ -61,6 +63,10 @@
 /* Begin PBXFileReference section */
 		320695A21F600F780009FFDA /* UIResponder+Chain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Chain.h"; sourceTree = "<group>"; };
 		320695A31F600F780009FFDA /* UIResponder+Chain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Chain.m"; sourceTree = "<group>"; };
+		320695A61F6010070009FFDA /* UIButton+CountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CountDown.h"; sourceTree = "<group>"; };
+		320695A71F6010070009FFDA /* UIButton+CountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CountDown.m"; sourceTree = "<group>"; };
+		320695AD1F6010680009FFDA /* UILabel+CountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CountDown.h"; sourceTree = "<group>"; };
+		320695AE1F6010680009FFDA /* UILabel+CountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CountDown.m"; sourceTree = "<group>"; };
 		32077BEA1F5FEC6F006E4C70 /* MYKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32077BEE1F5FEC6F006E4C70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32077BF01F5FEC6F006E4C70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -151,6 +157,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		320695A51F600FF80009FFDA /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				320695A61F6010070009FFDA /* UIButton+CountDown.h */,
+				320695A71F6010070009FFDA /* UIButton+CountDown.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		320695A91F6010320009FFDA /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				320695AD1F6010680009FFDA /* UILabel+CountDown.h */,
+				320695AE1F6010680009FFDA /* UILabel+CountDown.m */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
 		32077BE11F5FEC6F006E4C70 = {
 			isa = PBXGroup;
 			children = (
@@ -234,6 +258,8 @@
 		32077C231F5FEEA8006E4C70 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				320695A91F6010320009FFDA /* UILabel */,
+				320695A51F600FF80009FFDA /* UIButton */,
 				32077C6F1F600EB9006E4C70 /* UIResponder */,
 				32077C651F600C22006E4C70 /* UINavigationItem */,
 				32077C5E1F600A80006E4C70 /* UIColor */,
@@ -475,6 +501,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				320695AF1F6010680009FFDA /* UILabel+CountDown.m in Sources */,
 				32077C611F600AA5006E4C70 /* UIColor+Random.m in Sources */,
 				32077C2A1F5FEF7B006E4C70 /* UIImageView+Reflect.m in Sources */,
 				32077C6B1F600C7A006E4C70 /* UINavigationItem+Margin.m in Sources */,
@@ -488,6 +515,7 @@
 				32077C271F5FEEF7006E4C70 /* UIImageView+CornerRadius.m in Sources */,
 				32077BF21F5FEC6F006E4C70 /* AppDelegate.m in Sources */,
 				32077C411F5FF4B2006E4C70 /* UIView+SuperController.m in Sources */,
+				320695A81F6010070009FFDA /* UIButton+CountDown.m in Sources */,
 				32077BEF1F5FEC6F006E4C70 /* main.m in Sources */,
 				32077C4A1F5FF6FC006E4C70 /* UIView+Visuals.m in Sources */,
 				32077C371F5FF262006E4C70 /* UIAlertView+Block.m in Sources */,
