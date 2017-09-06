@@ -21,6 +21,13 @@
 		32077C301F5FEFF1006E4C70 /* UIImageView+Letters.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C2F1F5FEFF1006E4C70 /* UIImageView+Letters.m */; };
 		32077C331F5FF0AC006E4C70 /* UIImageView+BetterFace.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C321F5FF0AC006E4C70 /* UIImageView+BetterFace.m */; };
 		32077C371F5FF262006E4C70 /* UIAlertView+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C361F5FF262006E4C70 /* UIAlertView+Block.m */; };
+		32077C3B1F5FF3CD006E4C70 /* UIView+Position.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C3A1F5FF3CD006E4C70 /* UIView+Position.m */; };
+		32077C3E1F5FF410006E4C70 /* UIView+Gesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C3D1F5FF410006E4C70 /* UIView+Gesture.m */; };
+		32077C411F5FF4B2006E4C70 /* UIView+SuperController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C401F5FF4B2006E4C70 /* UIView+SuperController.m */; };
+		32077C441F5FF52E006E4C70 /* UIView+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C431F5FF52E006E4C70 /* UIView+Screenshot.m */; };
+		32077C471F5FF5F7006E4C70 /* UIView+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C461F5FF5F7006E4C70 /* UIView+Shake.m */; };
+		32077C4A1F5FF6FC006E4C70 /* UIView+Visuals.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C491F5FF6FC006E4C70 /* UIView+Visuals.m */; };
+		32077C4D1F5FF827006E4C70 /* UIView+CustomBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C4C1F5FF827006E4C70 /* UIView+CustomBorder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +77,20 @@
 		32077C321F5FF0AC006E4C70 /* UIImageView+BetterFace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+BetterFace.m"; sourceTree = "<group>"; };
 		32077C351F5FF262006E4C70 /* UIAlertView+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Block.h"; sourceTree = "<group>"; };
 		32077C361F5FF262006E4C70 /* UIAlertView+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Block.m"; sourceTree = "<group>"; };
+		32077C391F5FF3CD006E4C70 /* UIView+Position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Position.h"; sourceTree = "<group>"; };
+		32077C3A1F5FF3CD006E4C70 /* UIView+Position.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Position.m"; sourceTree = "<group>"; };
+		32077C3C1F5FF410006E4C70 /* UIView+Gesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Gesture.h"; sourceTree = "<group>"; };
+		32077C3D1F5FF410006E4C70 /* UIView+Gesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Gesture.m"; sourceTree = "<group>"; };
+		32077C3F1F5FF4B2006E4C70 /* UIView+SuperController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SuperController.h"; sourceTree = "<group>"; };
+		32077C401F5FF4B2006E4C70 /* UIView+SuperController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SuperController.m"; sourceTree = "<group>"; };
+		32077C421F5FF52E006E4C70 /* UIView+Screenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Screenshot.h"; sourceTree = "<group>"; };
+		32077C431F5FF52E006E4C70 /* UIView+Screenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Screenshot.m"; sourceTree = "<group>"; };
+		32077C451F5FF5F7006E4C70 /* UIView+Shake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Shake.h"; sourceTree = "<group>"; };
+		32077C461F5FF5F7006E4C70 /* UIView+Shake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Shake.m"; sourceTree = "<group>"; };
+		32077C481F5FF6FC006E4C70 /* UIView+Visuals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Visuals.h"; sourceTree = "<group>"; };
+		32077C491F5FF6FC006E4C70 /* UIView+Visuals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Visuals.m"; sourceTree = "<group>"; };
+		32077C4B1F5FF827006E4C70 /* UIView+CustomBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CustomBorder.h"; sourceTree = "<group>"; };
+		32077C4C1F5FF827006E4C70 /* UIView+CustomBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CustomBorder.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +201,7 @@
 		32077C231F5FEEA8006E4C70 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				32077C381F5FF394006E4C70 /* UIView */,
 				32077C341F5FF245006E4C70 /* UIAlertView */,
 				32077C241F5FEEDF006E4C70 /* UIImageView */,
 			);
@@ -210,6 +232,27 @@
 				32077C361F5FF262006E4C70 /* UIAlertView+Block.m */,
 			);
 			path = UIAlertView;
+			sourceTree = "<group>";
+		};
+		32077C381F5FF394006E4C70 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				32077C391F5FF3CD006E4C70 /* UIView+Position.h */,
+				32077C3A1F5FF3CD006E4C70 /* UIView+Position.m */,
+				32077C3C1F5FF410006E4C70 /* UIView+Gesture.h */,
+				32077C3D1F5FF410006E4C70 /* UIView+Gesture.m */,
+				32077C3F1F5FF4B2006E4C70 /* UIView+SuperController.h */,
+				32077C401F5FF4B2006E4C70 /* UIView+SuperController.m */,
+				32077C421F5FF52E006E4C70 /* UIView+Screenshot.h */,
+				32077C431F5FF52E006E4C70 /* UIView+Screenshot.m */,
+				32077C451F5FF5F7006E4C70 /* UIView+Shake.h */,
+				32077C461F5FF5F7006E4C70 /* UIView+Shake.m */,
+				32077C481F5FF6FC006E4C70 /* UIView+Visuals.h */,
+				32077C491F5FF6FC006E4C70 /* UIView+Visuals.m */,
+				32077C4B1F5FF827006E4C70 /* UIView+CustomBorder.h */,
+				32077C4C1F5FF827006E4C70 /* UIView+CustomBorder.m */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -346,14 +389,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				32077C2A1F5FEF7B006E4C70 /* UIImageView+Reflect.m in Sources */,
+				32077C471F5FF5F7006E4C70 /* UIView+Shake.m in Sources */,
 				32077C2D1F5FEFAA006E4C70 /* UIImageView+FaceAwareFill.m in Sources */,
 				32077BF51F5FEC6F006E4C70 /* ViewController.m in Sources */,
+				32077C3B1F5FF3CD006E4C70 /* UIView+Position.m in Sources */,
 				32077C271F5FEEF7006E4C70 /* UIImageView+CornerRadius.m in Sources */,
 				32077BF21F5FEC6F006E4C70 /* AppDelegate.m in Sources */,
+				32077C411F5FF4B2006E4C70 /* UIView+SuperController.m in Sources */,
 				32077BEF1F5FEC6F006E4C70 /* main.m in Sources */,
+				32077C4A1F5FF6FC006E4C70 /* UIView+Visuals.m in Sources */,
 				32077C371F5FF262006E4C70 /* UIAlertView+Block.m in Sources */,
+				32077C441F5FF52E006E4C70 /* UIView+Screenshot.m in Sources */,
 				32077C301F5FEFF1006E4C70 /* UIImageView+Letters.m in Sources */,
+				32077C4D1F5FF827006E4C70 /* UIView+CustomBorder.m in Sources */,
 				32077C331F5FF0AC006E4C70 /* UIImageView+BetterFace.m in Sources */,
+				32077C3E1F5FF410006E4C70 /* UIView+Gesture.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
