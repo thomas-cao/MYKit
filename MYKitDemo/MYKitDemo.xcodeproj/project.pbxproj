@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		320695A41F600F780009FFDA /* UIResponder+Chain.m in Sources */ = {isa = PBXBuildFile; fileRef = 320695A31F600F780009FFDA /* UIResponder+Chain.m */; };
 		32077BEF1F5FEC6F006E4C70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077BEE1F5FEC6F006E4C70 /* main.m */; };
 		32077BF21F5FEC6F006E4C70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077BF11F5FEC6F006E4C70 /* AppDelegate.m */; };
 		32077BF51F5FEC6F006E4C70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077BF41F5FEC6F006E4C70 /* ViewController.m */; };
@@ -58,6 +59,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		320695A21F600F780009FFDA /* UIResponder+Chain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Chain.h"; sourceTree = "<group>"; };
+		320695A31F600F780009FFDA /* UIResponder+Chain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Chain.m"; sourceTree = "<group>"; };
 		32077BEA1F5FEC6F006E4C70 /* MYKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32077BEE1F5FEC6F006E4C70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32077BF01F5FEC6F006E4C70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -333,6 +336,8 @@
 			children = (
 				32077C701F600ED5006E4C70 /* UIResponder+Router.h */,
 				32077C711F600ED5006E4C70 /* UIResponder+Router.m */,
+				320695A21F600F780009FFDA /* UIResponder+Chain.h */,
+				320695A31F600F780009FFDA /* UIResponder+Chain.m */,
 			);
 			path = UIResponder;
 			sourceTree = "<group>";
@@ -494,6 +499,7 @@
 				32077C721F600ED5006E4C70 /* UIResponder+Router.m in Sources */,
 				32077C4D1F5FF827006E4C70 /* UIView+CustomBorder.m in Sources */,
 				32077C641F600AE8006E4C70 /* UIColor+Hex.m in Sources */,
+				320695A41F600F780009FFDA /* UIResponder+Chain.m in Sources */,
 				32077C331F5FF0AC006E4C70 /* UIImageView+BetterFace.m in Sources */,
 				32077C3E1F5FF410006E4C70 /* UIView+Gesture.m in Sources */,
 			);
