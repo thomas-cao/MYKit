@@ -34,6 +34,9 @@
 		32077C5A1F60038A006E4C70 /* UIImage+Effect.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C591F60038A006E4C70 /* UIImage+Effect.m */; };
 		32077C611F600AA5006E4C70 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C601F600AA5006E4C70 /* UIColor+Random.m */; };
 		32077C641F600AE8006E4C70 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C631F600AE8006E4C70 /* UIColor+Hex.m */; };
+		32077C681F600C3A006E4C70 /* UINavigationItem+Loading.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C671F600C3A006E4C70 /* UINavigationItem+Loading.m */; };
+		32077C6B1F600C7A006E4C70 /* UINavigationItem+Margin.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C6A1F600C7A006E4C70 /* UINavigationItem+Margin.m */; };
+		32077C6E1F600CCC006E4C70 /* UINavigationItem+Target.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C6D1F600CCC006E4C70 /* UINavigationItem+Target.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +112,12 @@
 		32077C601F600AA5006E4C70 /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
 		32077C621F600AE8006E4C70 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		32077C631F600AE8006E4C70 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		32077C661F600C3A006E4C70 /* UINavigationItem+Loading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+Loading.h"; sourceTree = "<group>"; };
+		32077C671F600C3A006E4C70 /* UINavigationItem+Loading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+Loading.m"; sourceTree = "<group>"; };
+		32077C691F600C7A006E4C70 /* UINavigationItem+Margin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+Margin.h"; sourceTree = "<group>"; };
+		32077C6A1F600C7A006E4C70 /* UINavigationItem+Margin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+Margin.m"; sourceTree = "<group>"; };
+		32077C6C1F600CCC006E4C70 /* UINavigationItem+Target.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+Target.h"; sourceTree = "<group>"; };
+		32077C6D1F600CCC006E4C70 /* UINavigationItem+Target.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+Target.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +228,7 @@
 		32077C231F5FEEA8006E4C70 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				32077C651F600C22006E4C70 /* UINavigationItem */,
 				32077C5E1F600A80006E4C70 /* UIColor */,
 				32077C4E1F5FF9EA006E4C70 /* UIImage */,
 				32077C381F5FF394006E4C70 /* UIView */,
@@ -299,6 +309,19 @@
 				32077C631F600AE8006E4C70 /* UIColor+Hex.m */,
 			);
 			path = UIColor;
+			sourceTree = "<group>";
+		};
+		32077C651F600C22006E4C70 /* UINavigationItem */ = {
+			isa = PBXGroup;
+			children = (
+				32077C661F600C3A006E4C70 /* UINavigationItem+Loading.h */,
+				32077C671F600C3A006E4C70 /* UINavigationItem+Loading.m */,
+				32077C691F600C7A006E4C70 /* UINavigationItem+Margin.h */,
+				32077C6A1F600C7A006E4C70 /* UINavigationItem+Margin.m */,
+				32077C6C1F600CCC006E4C70 /* UINavigationItem+Target.h */,
+				32077C6D1F600CCC006E4C70 /* UINavigationItem+Target.m */,
+			);
+			path = UINavigationItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -436,9 +459,11 @@
 			files = (
 				32077C611F600AA5006E4C70 /* UIColor+Random.m in Sources */,
 				32077C2A1F5FEF7B006E4C70 /* UIImageView+Reflect.m in Sources */,
+				32077C6B1F600C7A006E4C70 /* UINavigationItem+Margin.m in Sources */,
 				32077C471F5FF5F7006E4C70 /* UIView+Shake.m in Sources */,
 				32077C2D1F5FEFAA006E4C70 /* UIImageView+FaceAwareFill.m in Sources */,
 				32077C511F5FFA19006E4C70 /* UIImage+Color.m in Sources */,
+				32077C6E1F600CCC006E4C70 /* UINavigationItem+Target.m in Sources */,
 				32077C5A1F60038A006E4C70 /* UIImage+Effect.m in Sources */,
 				32077BF51F5FEC6F006E4C70 /* ViewController.m in Sources */,
 				32077C3B1F5FF3CD006E4C70 /* UIView+Position.m in Sources */,
@@ -452,6 +477,7 @@
 				32077C441F5FF52E006E4C70 /* UIView+Screenshot.m in Sources */,
 				32077C541F5FFBFE006E4C70 /* UIImage+Screenshot.m in Sources */,
 				32077C301F5FEFF1006E4C70 /* UIImageView+Letters.m in Sources */,
+				32077C681F600C3A006E4C70 /* UINavigationItem+Loading.m in Sources */,
 				32077C4D1F5FF827006E4C70 /* UIView+CustomBorder.m in Sources */,
 				32077C641F600AE8006E4C70 /* UIColor+Hex.m in Sources */,
 				32077C331F5FF0AC006E4C70 /* UIImageView+BetterFace.m in Sources */,
