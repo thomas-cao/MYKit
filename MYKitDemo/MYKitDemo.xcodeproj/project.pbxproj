@@ -52,6 +52,7 @@
 		321373051F6163FC00E15D0A /* UITextField+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = 321373041F6163FC00E15D0A /* UITextField+Shake.m */; };
 		321373081F61645800E15D0A /* UITextField+InputLimit.m in Sources */ = {isa = PBXBuildFile; fileRef = 321373071F61645800E15D0A /* UITextField+InputLimit.m */; };
 		3213730C1F61660900E15D0A /* UITableView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3213730B1F61660900E15D0A /* UITableView+Extension.m */; };
+		321373101F61668700E15D0A /* UIScrollView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3213730F1F61668700E15D0A /* UIScrollView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -163,6 +164,8 @@
 		321373071F61645800E15D0A /* UITextField+InputLimit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+InputLimit.m"; sourceTree = "<group>"; };
 		3213730A1F61660900E15D0A /* UITableView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Extension.h"; sourceTree = "<group>"; };
 		3213730B1F61660900E15D0A /* UITableView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Extension.m"; sourceTree = "<group>"; };
+		3213730E1F61668700E15D0A /* UIScrollView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Extension.h"; sourceTree = "<group>"; };
+		3213730F1F61668700E15D0A /* UIScrollView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -291,6 +294,7 @@
 		32077C231F5FEEA8006E4C70 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				3213730D1F61667200E15D0A /* UIScrollView */,
 				321373091F6165F200E15D0A /* UITableView */,
 				321372FF1F6163B100E15D0A /* UITextField */,
 				321372F21F6161FC00E15D0A /* UITextView */,
@@ -463,6 +467,15 @@
 			path = UITableView;
 			sourceTree = "<group>";
 		};
+		3213730D1F61667200E15D0A /* UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				3213730E1F61668700E15D0A /* UIScrollView+Extension.h */,
+				3213730F1F61668700E15D0A /* UIScrollView+Extension.m */,
+			);
+			path = UIScrollView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -610,6 +623,7 @@
 				321373051F6163FC00E15D0A /* UITextField+Shake.m in Sources */,
 				32077C5A1F60038A006E4C70 /* UIImage+Effect.m in Sources */,
 				32077BF51F5FEC6F006E4C70 /* ViewController.m in Sources */,
+				321373101F61668700E15D0A /* UIScrollView+Extension.m in Sources */,
 				32077C3B1F5FF3CD006E4C70 /* UIView+Position.m in Sources */,
 				32077C271F5FEEF7006E4C70 /* UIImageView+CornerRadius.m in Sources */,
 				32077BF21F5FEC6F006E4C70 /* AppDelegate.m in Sources */,
