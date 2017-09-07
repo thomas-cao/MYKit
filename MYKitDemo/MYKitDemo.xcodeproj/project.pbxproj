@@ -48,6 +48,9 @@
 		321372F81F61621C00E15D0A /* UITextView+PlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 321372F61F61621C00E15D0A /* UITextView+PlaceHolder.m */; };
 		321372FB1F6162C800E15D0A /* UITextView+InputLengthCalculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 321372FA1F6162C800E15D0A /* UITextView+InputLengthCalculate.m */; };
 		321372FE1F61633300E15D0A /* UITextView+Select.m in Sources */ = {isa = PBXBuildFile; fileRef = 321372FD1F61633300E15D0A /* UITextView+Select.m */; };
+		321373021F6163C300E15D0A /* UITextField+Select.m in Sources */ = {isa = PBXBuildFile; fileRef = 321373011F6163C300E15D0A /* UITextField+Select.m */; };
+		321373051F6163FC00E15D0A /* UITextField+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = 321373041F6163FC00E15D0A /* UITextField+Shake.m */; };
+		321373081F61645800E15D0A /* UITextField+InputLimit.m in Sources */ = {isa = PBXBuildFile; fileRef = 321373071F61645800E15D0A /* UITextField+InputLimit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,6 +154,12 @@
 		321372FA1F6162C800E15D0A /* UITextView+InputLengthCalculate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+InputLengthCalculate.m"; sourceTree = "<group>"; };
 		321372FC1F61633300E15D0A /* UITextView+Select.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Select.h"; sourceTree = "<group>"; };
 		321372FD1F61633300E15D0A /* UITextView+Select.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Select.m"; sourceTree = "<group>"; };
+		321373001F6163C300E15D0A /* UITextField+Select.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Select.h"; sourceTree = "<group>"; };
+		321373011F6163C300E15D0A /* UITextField+Select.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Select.m"; sourceTree = "<group>"; };
+		321373031F6163FC00E15D0A /* UITextField+Shake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Shake.h"; sourceTree = "<group>"; };
+		321373041F6163FC00E15D0A /* UITextField+Shake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Shake.m"; sourceTree = "<group>"; };
+		321373061F61645800E15D0A /* UITextField+InputLimit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+InputLimit.h"; sourceTree = "<group>"; };
+		321373071F61645800E15D0A /* UITextField+InputLimit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+InputLimit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -279,6 +288,7 @@
 		32077C231F5FEEA8006E4C70 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				321372FF1F6163B100E15D0A /* UITextField */,
 				321372F21F6161FC00E15D0A /* UITextView */,
 				321372EB1F615DE500E15D0A /* UIWebView */,
 				321372E71F615C7F00E15D0A /* UIWindow */,
@@ -427,6 +437,19 @@
 			path = UITextView;
 			sourceTree = "<group>";
 		};
+		321372FF1F6163B100E15D0A /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				321373001F6163C300E15D0A /* UITextField+Select.h */,
+				321373011F6163C300E15D0A /* UITextField+Select.m */,
+				321373031F6163FC00E15D0A /* UITextField+Shake.h */,
+				321373041F6163FC00E15D0A /* UITextField+Shake.m */,
+				321373061F61645800E15D0A /* UITextField+InputLimit.h */,
+				321373071F61645800E15D0A /* UITextField+InputLimit.m */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -567,9 +590,11 @@
 				32077C6B1F600C7A006E4C70 /* UINavigationItem+Margin.m in Sources */,
 				32077C471F5FF5F7006E4C70 /* UIView+Shake.m in Sources */,
 				321372FB1F6162C800E15D0A /* UITextView+InputLengthCalculate.m in Sources */,
+				321373081F61645800E15D0A /* UITextField+InputLimit.m in Sources */,
 				32077C2D1F5FEFAA006E4C70 /* UIImageView+FaceAwareFill.m in Sources */,
 				32077C511F5FFA19006E4C70 /* UIImage+Color.m in Sources */,
 				32077C6E1F600CCC006E4C70 /* UINavigationItem+Target.m in Sources */,
+				321373051F6163FC00E15D0A /* UITextField+Shake.m in Sources */,
 				32077C5A1F60038A006E4C70 /* UIImage+Effect.m in Sources */,
 				32077BF51F5FEC6F006E4C70 /* ViewController.m in Sources */,
 				32077C3B1F5FF3CD006E4C70 /* UIView+Position.m in Sources */,
@@ -583,6 +608,7 @@
 				32077C4A1F5FF6FC006E4C70 /* UIView+Visuals.m in Sources */,
 				321372EE1F615DF600E15D0A /* UIWebView+Block.m in Sources */,
 				321372EA1F615D2900E15D0A /* UIWindow+Hierarchy.m in Sources */,
+				321373021F6163C300E15D0A /* UITextField+Select.m in Sources */,
 				32077C371F5FF262006E4C70 /* UIAlertView+Block.m in Sources */,
 				32077C571F600133006E4C70 /* UIImage+CornerRadius.m in Sources */,
 				32077C441F5FF52E006E4C70 /* UIView+Screenshot.m in Sources */,
