@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.subspec 'UIKit' do |ss|
     ss.source_files = 'MYKit/MYKit/UIKit/**/*'
     ss.public_header_files = 'MYKit/MYKit/UIKit/**/*.h'
-    ss.dependency 'FXKit/Foundation'
+    ss.dependency 'MYKit/Foundation'
   end
 
   s.subspec 'Foundation' do |ss|
