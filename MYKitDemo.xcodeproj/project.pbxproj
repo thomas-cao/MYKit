@@ -75,9 +75,7 @@
 		3213735F1F6266A500E15D0A /* NSData+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 3213735E1F6266A500E15D0A /* NSData+Hash.m */; };
 		321373621F62675300E15D0A /* NSData+Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 321373611F62675300E15D0A /* NSData+Encrypt.m */; };
 		321373651F62680D00E15D0A /* NSData+Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = 321373641F62680D00E15D0A /* NSData+Encode.m */; };
-		3213736C1F6269BC00E15D0A /* NSDate+Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3213736B1F6269BC00E15D0A /* NSDate+Formatter.m */; };
 		3213736F1F626A9700E15D0A /* NSDate+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3213736E1F626A9700E15D0A /* NSDate+YYAdd.m */; };
-		321373721F626ABA00E15D0A /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 321373711F626ABA00E15D0A /* NSDate+Extension.m */; };
 		321373761F626B7700E15D0A /* NSDateFormatter+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 321373751F626B7700E15D0A /* NSDateFormatter+Extension.m */; };
 		3213737A1F626BA800E15D0A /* NSDictionary+SafeAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 321373791F626BA800E15D0A /* NSDictionary+SafeAccess.m */; };
 		3213737D1F626BBD00E15D0A /* NSDictionary+JSONString.m in Sources */ = {isa = PBXBuildFile; fileRef = 3213737C1F626BBD00E15D0A /* NSDictionary+JSONString.m */; };
@@ -254,12 +252,8 @@
 		321373611F62675300E15D0A /* NSData+Encrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Encrypt.m"; sourceTree = "<group>"; };
 		321373631F62680D00E15D0A /* NSData+Encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Encode.h"; sourceTree = "<group>"; };
 		321373641F62680D00E15D0A /* NSData+Encode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Encode.m"; sourceTree = "<group>"; };
-		3213736A1F6269BC00E15D0A /* NSDate+Formatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Formatter.h"; sourceTree = "<group>"; };
-		3213736B1F6269BC00E15D0A /* NSDate+Formatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Formatter.m"; sourceTree = "<group>"; };
 		3213736D1F626A9700E15D0A /* NSDate+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+YYAdd.h"; sourceTree = "<group>"; };
 		3213736E1F626A9700E15D0A /* NSDate+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+YYAdd.m"; sourceTree = "<group>"; };
-		321373701F626ABA00E15D0A /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
-		321373711F626ABA00E15D0A /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
 		321373741F626B7700E15D0A /* NSDateFormatter+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+Extension.h"; sourceTree = "<group>"; };
 		321373751F626B7700E15D0A /* NSDateFormatter+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+Extension.m"; sourceTree = "<group>"; };
 		321373781F626BA800E15D0A /* NSDictionary+SafeAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SafeAccess.h"; sourceTree = "<group>"; };
@@ -731,12 +725,8 @@
 		321373661F6268C800E15D0A /* NSDate */ = {
 			isa = PBXGroup;
 			children = (
-				3213736A1F6269BC00E15D0A /* NSDate+Formatter.h */,
-				3213736B1F6269BC00E15D0A /* NSDate+Formatter.m */,
 				3213736D1F626A9700E15D0A /* NSDate+YYAdd.h */,
 				3213736E1F626A9700E15D0A /* NSDate+YYAdd.m */,
-				321373701F626ABA00E15D0A /* NSDate+Extension.h */,
-				321373711F626ABA00E15D0A /* NSDate+Extension.m */,
 			);
 			path = NSDate;
 			sourceTree = "<group>";
@@ -1002,7 +992,6 @@
 				32077C411F5FF4B2006E4C70 /* UIView+SuperController.m in Sources */,
 				320695A81F6010070009FFDA /* UIButton+CountDown.m in Sources */,
 				32077BEF1F5FEC6F006E4C70 /* main.m in Sources */,
-				3213736C1F6269BC00E15D0A /* NSDate+Formatter.m in Sources */,
 				321373AF1F627CEE00E15D0A /* NSString+Contains.m in Sources */,
 				321373621F62675300E15D0A /* NSData+Encrypt.m in Sources */,
 				321373B61F627D9700E15D0A /* NSObject+Swizzling.m in Sources */,
@@ -1036,7 +1025,6 @@
 				321373801F626C1B00E15D0A /* NSDictionary+Plist.m in Sources */,
 				3213735F1F6266A500E15D0A /* NSData+Hash.m in Sources */,
 				32077C681F600C3A006E4C70 /* UINavigationItem+Loading.m in Sources */,
-				321373721F626ABA00E15D0A /* NSDate+Extension.m in Sources */,
 				321373441F616B8500E15D0A /* UIApplication+Extension.m in Sources */,
 				32077C721F600ED5006E4C70 /* UIResponder+Router.m in Sources */,
 				32077C4D1F5FF827006E4C70 /* UIView+CustomBorder.m in Sources */,
