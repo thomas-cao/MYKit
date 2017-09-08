@@ -23,13 +23,13 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit','Foundation'
 
   s.subspec 'UIKit' do |ss|
-    ss.source_files = 'MYKit/MYKit/UIKit/**/*'
-    ss.public_header_files = 'MYKit/MYKit/UIKit/**/*.h'
+    ss.source_files = 'MYKit/**/*.{h,m}"
+    ss.public_header_files = 'MYKit/**/*.{h,m}"
     ss.dependency 'MYKit/Foundation'
   end
 
   s.subspec 'Foundation' do |ss|
-    ss.source_files = 'MYKit/MYKit/Foundation/**/*'
-    ss.public_header_files = 'MYKit/MYKit/Foundation/**/*.h'
+    ss.source_files = 'MYKit/**/*.{h,m}"
+    ss.public_header_files = 'MYKit/**/*.{h,m}"
   end
 end
