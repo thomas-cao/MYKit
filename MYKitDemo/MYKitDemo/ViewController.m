@@ -21,8 +21,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    self.imageView.myCornerRadius = 50.0f;
-    
     self.imageView.image = [self.imageView.image circleImage];
 }
 
