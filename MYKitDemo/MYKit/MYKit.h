@@ -13,9 +13,6 @@
 
 #if __has_include(<MYKit/MYKit.h>)
 
-FOUNDATION_EXPORT double MYKitVersionNumber;
-FOUNDATION_EXPORT const unsigned char MYKitVersionString[];
-
 #import <MYKit/UIApplication+NetworkActivityIndicator.h>
 #import <MYKit/UIApplication+Extension.h>
 #import <MYKit/UIBarButtonItem+Badge.h>
@@ -60,7 +57,6 @@ FOUNDATION_EXPORT const unsigned char MYKitVersionString[];
 #import <MYKit/UIView+Gesture.h>
 #import <MYKit/UIView+SuperController.h>
 #import <MYKit/UIView+Screenshot.h>
-#import <MYKit/UIView+Shake.h>
 #import <MYKit/UIView+Visuals.h>
 #import <MYKit/UIView+CustomBorder.h>
 #import <MYKit/UIAlertView+Block.h>
@@ -223,9 +219,9 @@ FOUNDATION_EXPORT const unsigned char MYKitVersionString[];
 #import "UIView+Gesture.h"
 #import "UIView+SuperController.h"
 #import "UIView+Screenshot.h"
-#import "UIView+Shake.h"
 #import "UIView+Visuals.h"
 #import "UIView+CustomBorder.h"
 
+#endif 
 
 #endif /* MYKit_h */

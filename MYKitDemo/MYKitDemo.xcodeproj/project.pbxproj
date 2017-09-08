@@ -28,7 +28,6 @@
 		32077C3E1F5FF410006E4C70 /* UIView+Gesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C3D1F5FF410006E4C70 /* UIView+Gesture.m */; };
 		32077C411F5FF4B2006E4C70 /* UIView+SuperController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C401F5FF4B2006E4C70 /* UIView+SuperController.m */; };
 		32077C441F5FF52E006E4C70 /* UIView+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C431F5FF52E006E4C70 /* UIView+Screenshot.m */; };
-		32077C471F5FF5F7006E4C70 /* UIView+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C461F5FF5F7006E4C70 /* UIView+Shake.m */; };
 		32077C4A1F5FF6FC006E4C70 /* UIView+Visuals.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C491F5FF6FC006E4C70 /* UIView+Visuals.m */; };
 		32077C4D1F5FF827006E4C70 /* UIView+CustomBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C4C1F5FF827006E4C70 /* UIView+CustomBorder.m */; };
 		32077C511F5FFA19006E4C70 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077C501F5FFA19006E4C70 /* UIImage+Color.m */; };
@@ -164,8 +163,6 @@
 		32077C401F5FF4B2006E4C70 /* UIView+SuperController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SuperController.m"; sourceTree = "<group>"; };
 		32077C421F5FF52E006E4C70 /* UIView+Screenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Screenshot.h"; sourceTree = "<group>"; };
 		32077C431F5FF52E006E4C70 /* UIView+Screenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Screenshot.m"; sourceTree = "<group>"; };
-		32077C451F5FF5F7006E4C70 /* UIView+Shake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Shake.h"; sourceTree = "<group>"; };
-		32077C461F5FF5F7006E4C70 /* UIView+Shake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Shake.m"; sourceTree = "<group>"; };
 		32077C481F5FF6FC006E4C70 /* UIView+Visuals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Visuals.h"; sourceTree = "<group>"; };
 		32077C491F5FF6FC006E4C70 /* UIView+Visuals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Visuals.m"; sourceTree = "<group>"; };
 		32077C4B1F5FF827006E4C70 /* UIView+CustomBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CustomBorder.h"; sourceTree = "<group>"; };
@@ -527,8 +524,6 @@
 				32077C401F5FF4B2006E4C70 /* UIView+SuperController.m */,
 				32077C421F5FF52E006E4C70 /* UIView+Screenshot.h */,
 				32077C431F5FF52E006E4C70 /* UIView+Screenshot.m */,
-				32077C451F5FF5F7006E4C70 /* UIView+Shake.h */,
-				32077C461F5FF5F7006E4C70 /* UIView+Shake.m */,
 				32077C481F5FF6FC006E4C70 /* UIView+Visuals.h */,
 				32077C491F5FF6FC006E4C70 /* UIView+Visuals.m */,
 				32077C4B1F5FF827006E4C70 /* UIView+CustomBorder.h */,
@@ -996,7 +991,6 @@
 				321372F81F61621C00E15D0A /* UITextView+PlaceHolder.m in Sources */,
 				32077C6B1F600C7A006E4C70 /* UINavigationItem+Margin.m in Sources */,
 				3213738F1F626E1000E15D0A /* NSUserDefaults+SafeAccess.m in Sources */,
-				32077C471F5FF5F7006E4C70 /* UIView+Shake.m in Sources */,
 				321372FB1F6162C800E15D0A /* UITextView+InputLengthCalculate.m in Sources */,
 				321373321F616A1900E15D0A /* UIButton+Badge.m in Sources */,
 				321373081F61645800E15D0A /* UITextField+InputLimit.m in Sources */,
