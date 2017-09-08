@@ -7,11 +7,9 @@
 //
 
 #import "UIBarButtonItem+Badge.h"
-
 #import <objc/runtime.h>
 
 NSString const *UIBarButtonItem_badgeKey = @"UIBarButtonItem_badgeKey";
-
 NSString const *UIBarButtonItem_badgeBGColorKey = @"UIBarButtonItem_badgeBGColorKey";
 NSString const *UIBarButtonItem_badgeTextColorKey = @"UIBarButtonItem_badgeTextColorKey";
 NSString const *UIBarButtonItem_badgeFontKey = @"UIBarButtonItem_badgeFontKey";

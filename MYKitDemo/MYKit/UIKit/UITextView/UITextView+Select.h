@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface UITextView (Select)
 
 /**
@@ -28,3 +30,5 @@
 - (void)setSelectedRange:(NSRange)range;
 
 @end
+
+NS_ASSUME_NONNULL_END

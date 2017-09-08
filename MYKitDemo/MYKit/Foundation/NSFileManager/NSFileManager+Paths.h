@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface NSFileManager (Paths)
 
 /**
@@ -67,3 +69,5 @@
 + (double)availableDiskSpace;
 
 @end
+
+NS_ASSUME_NONNULL_END

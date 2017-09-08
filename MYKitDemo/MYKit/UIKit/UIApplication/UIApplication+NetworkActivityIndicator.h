@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface UIApplication (NetworkActivityIndicator)
 
 /*
@@ -22,3 +24,5 @@
 - (void)endedNetworkActivity;
 
 @end
+
+NS_ASSUME_NONNULL_END

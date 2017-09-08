@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface NSUserDefaults (SafeAccess)
 
 + (NSString *)stringForKey:(NSString *)defaultName;
@@ -33,3 +35,5 @@
 + (void)setObject:(id)value forKey:(NSString *)defaultName;
 
 @end
+
+NS_ASSUME_NONNULL_END

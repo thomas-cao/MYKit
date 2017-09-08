@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface NSString (Trims)
 
 /**
@@ -42,3 +44,5 @@
 - (NSString *)stringByRemovingScriptsAndStrippingHTML;
 
 @end
+
+NS_ASSUME_NONNULL_END

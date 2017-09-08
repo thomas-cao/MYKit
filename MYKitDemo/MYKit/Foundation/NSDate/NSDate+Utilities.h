@@ -14,6 +14,8 @@
 #define D_WEEK		604800
 #define D_YEAR		31556926
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface NSDate (Utilities)
 
 @property (nonatomic, readonly) NSString *shortString;
@@ -114,3 +116,5 @@
 - (NSInteger)distanceInDaysToDate:(NSDate *)anotherDate;
 
 @end
+
+NS_ASSUME_NONNULL_END

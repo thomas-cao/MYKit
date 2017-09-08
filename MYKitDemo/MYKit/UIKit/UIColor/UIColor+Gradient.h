@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface UIColor (Gradient)
 
 /**
@@ -24,3 +26,5 @@
                         height:(CGFloat)height;
 
 @end
+
+NS_ASSUME_NONNULL_END

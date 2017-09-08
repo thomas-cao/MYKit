@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface NSDate (Formatter)
 
 + (NSDateFormatter *)formatter;
@@ -37,3 +39,5 @@
 
 
 @end
+
+NS_ASSUME_NONNULL_END
