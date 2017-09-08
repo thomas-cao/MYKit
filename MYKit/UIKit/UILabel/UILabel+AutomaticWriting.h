@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 //! Project version number for UILabel-AutomaticWriting.
 FOUNDATION_EXPORT double UILabelAutomaticWritingVersionNumber;
 
@@ -47,5 +45,3 @@ typedef NS_ENUM(NSInteger, UILabelAWBlinkingMode) {
 - (void)setText:(NSString *)text automaticWritingAnimationWithDuration:(NSTimeInterval)duration blinkingMode:(UILabelAWBlinkingMode)blinkingMode blinkingCharacter:(unichar)blinkingCharacter completion:(void (^)(void))completion;
 
 @end
-
-NS_ASSUME_NONNULL_END

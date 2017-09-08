@@ -55,7 +55,6 @@
 		321373161F61676600E15D0A /* UINavigationController+StackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 321373131F61676600E15D0A /* UINavigationController+StackManager.m */; };
 		321373171F61676600E15D0A /* UINavigationController+Transitions.m in Sources */ = {isa = PBXBuildFile; fileRef = 321373151F61676600E15D0A /* UINavigationController+Transitions.m */; };
 		3213731E1F6167C600E15D0A /* UILabel+FitLines.m in Sources */ = {isa = PBXBuildFile; fileRef = 321373191F6167C600E15D0A /* UILabel+FitLines.m */; };
-		3213731F1F6167C600E15D0A /* UILabel+AdjustableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3213731B1F6167C600E15D0A /* UILabel+AdjustableLabel.m */; };
 		321373201F6167C600E15D0A /* UILabel+AutomaticWriting.m in Sources */ = {isa = PBXBuildFile; fileRef = 3213731D1F6167C600E15D0A /* UILabel+AutomaticWriting.m */; };
 		321373241F61684F00E15D0A /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 321373231F61684F00E15D0A /* NSString+Size.m */; };
 		321373271F6169B100E15D0A /* UIColor+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 321373261F6169B100E15D0A /* UIColor+Gradient.m */; };
@@ -76,7 +75,6 @@
 		3213735F1F6266A500E15D0A /* NSData+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 3213735E1F6266A500E15D0A /* NSData+Hash.m */; };
 		321373621F62675300E15D0A /* NSData+Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 321373611F62675300E15D0A /* NSData+Encrypt.m */; };
 		321373651F62680D00E15D0A /* NSData+Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = 321373641F62680D00E15D0A /* NSData+Encode.m */; };
-		321373691F62692500E15D0A /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 321373681F62692500E15D0A /* NSDate+Utilities.m */; };
 		3213736C1F6269BC00E15D0A /* NSDate+Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3213736B1F6269BC00E15D0A /* NSDate+Formatter.m */; };
 		3213736F1F626A9700E15D0A /* NSDate+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3213736E1F626A9700E15D0A /* NSDate+YYAdd.m */; };
 		321373721F626ABA00E15D0A /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 321373711F626ABA00E15D0A /* NSDate+Extension.m */; };
@@ -217,8 +215,6 @@
 		321373151F61676600E15D0A /* UINavigationController+Transitions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Transitions.m"; sourceTree = "<group>"; };
 		321373181F6167C600E15D0A /* UILabel+FitLines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+FitLines.h"; sourceTree = "<group>"; };
 		321373191F6167C600E15D0A /* UILabel+FitLines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+FitLines.m"; sourceTree = "<group>"; };
-		3213731A1F6167C600E15D0A /* UILabel+AdjustableLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+AdjustableLabel.h"; sourceTree = "<group>"; };
-		3213731B1F6167C600E15D0A /* UILabel+AdjustableLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AdjustableLabel.m"; sourceTree = "<group>"; };
 		3213731C1F6167C600E15D0A /* UILabel+AutomaticWriting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+AutomaticWriting.h"; sourceTree = "<group>"; };
 		3213731D1F6167C600E15D0A /* UILabel+AutomaticWriting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AutomaticWriting.m"; sourceTree = "<group>"; };
 		321373221F61684F00E15D0A /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
@@ -259,8 +255,6 @@
 		321373611F62675300E15D0A /* NSData+Encrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Encrypt.m"; sourceTree = "<group>"; };
 		321373631F62680D00E15D0A /* NSData+Encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Encode.h"; sourceTree = "<group>"; };
 		321373641F62680D00E15D0A /* NSData+Encode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Encode.m"; sourceTree = "<group>"; };
-		321373671F62692500E15D0A /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utilities.h"; sourceTree = "<group>"; };
-		321373681F62692500E15D0A /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utilities.m"; sourceTree = "<group>"; };
 		3213736A1F6269BC00E15D0A /* NSDate+Formatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Formatter.h"; sourceTree = "<group>"; };
 		3213736B1F6269BC00E15D0A /* NSDate+Formatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Formatter.m"; sourceTree = "<group>"; };
 		3213736D1F626A9700E15D0A /* NSDate+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+YYAdd.h"; sourceTree = "<group>"; };
@@ -360,8 +354,6 @@
 				320695AE1F6010680009FFDA /* UILabel+CountDown.m */,
 				321373181F6167C600E15D0A /* UILabel+FitLines.h */,
 				321373191F6167C600E15D0A /* UILabel+FitLines.m */,
-				3213731A1F6167C600E15D0A /* UILabel+AdjustableLabel.h */,
-				3213731B1F6167C600E15D0A /* UILabel+AdjustableLabel.m */,
 				3213731C1F6167C600E15D0A /* UILabel+AutomaticWriting.h */,
 				3213731D1F6167C600E15D0A /* UILabel+AutomaticWriting.m */,
 			);
@@ -744,8 +736,6 @@
 		321373661F6268C800E15D0A /* NSDate */ = {
 			isa = PBXGroup;
 			children = (
-				321373671F62692500E15D0A /* NSDate+Utilities.h */,
-				321373681F62692500E15D0A /* NSDate+Utilities.m */,
 				3213736A1F6269BC00E15D0A /* NSDate+Formatter.h */,
 				3213736B1F6269BC00E15D0A /* NSDate+Formatter.m */,
 				3213736D1F626A9700E15D0A /* NSDate+YYAdd.h */,
@@ -1005,7 +995,6 @@
 				3213737D1F626BBD00E15D0A /* NSDictionary+JSONString.m in Sources */,
 				32077BF51F5FEC6F006E4C70 /* ViewController.m in Sources */,
 				321373101F61668700E15D0A /* UIScrollView+Extension.m in Sources */,
-				3213731F1F6167C600E15D0A /* UILabel+AdjustableLabel.m in Sources */,
 				321373651F62680D00E15D0A /* NSData+Encode.m in Sources */,
 				32077C3B1F5FF3CD006E4C70 /* UIView+Position.m in Sources */,
 				32077C271F5FEEF7006E4C70 /* UIImageView+CornerRadius.m in Sources */,
@@ -1064,7 +1053,6 @@
 				321373361F616A1900E15D0A /* UIButton+TouchAreaInsets.m in Sources */,
 				32077C331F5FF0AC006E4C70 /* UIImageView+BetterFace.m in Sources */,
 				321373331F616A1900E15D0A /* UIButton+ImagePosition.m in Sources */,
-				321373691F62692500E15D0A /* NSDate+Utilities.m in Sources */,
 				321373591F62665B00E15D0A /* NSData+APNSToken.m in Sources */,
 				321373831F626C9400E15D0A /* NSDictionary+Key.m in Sources */,
 				32077C3E1F5FF410006E4C70 /* UIView+Gesture.m in Sources */,

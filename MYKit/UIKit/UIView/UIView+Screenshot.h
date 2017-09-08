@@ -20,12 +20,10 @@ NS_ASSUME_NONNULL_BEGIN
 - (UIImage *)screenshot;
 
 /**
- *  @author Jakey
  *
- *  @brief  截图一个view中所有视图 包括旋转缩放效果
+ *  @brief 根据maxWidth截图一个view中的视图
  *
- *  @param aView    一个view
- *  @param limitWidth 限制缩放的最大宽度 保持默认传0
+ *  @param maxWidth  最大宽度
  *
  *  @return 截图
  */

@@ -20,7 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  Returns an NSString from base64 encoded string.
- @param base64Encoding The encoded string.
+ @param base64EncodedString The encoded string.
  */
 + (nullable NSString *)stringWithBase64EncodedString:(NSString *)base64EncodedString;
 
@@ -38,7 +38,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  Escape common HTML to Entity.
- Example: "a<b" will be escape to "a&lt;b".
  */
 - (NSString *)stringByEscapingHTML;
 

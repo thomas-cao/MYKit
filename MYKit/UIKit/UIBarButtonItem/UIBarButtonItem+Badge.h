@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface UIBarButtonItem (Badge)
 
 @property (strong, atomic) UILabel *badge;
@@ -35,5 +33,3 @@ NS_ASSUME_NONNULL_BEGIN
 @property BOOL shouldAnimateBadge;
 
 @end
-
-NS_ASSUME_NONNULL_END

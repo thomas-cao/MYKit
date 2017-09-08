@@ -8,8 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface NSDateFormatter (Extension)
 
 + (NSDateFormatter *)dateFormatterWithFormat:(NSString *)format;
@@ -21,5 +19,3 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSDateFormatter *)dateFormatterWithTimeStyle:(NSDateFormatterStyle)style timeZone:(NSTimeZone *)timeZone;
 
 @end
-
-NS_ASSUME_NONNULL_END
