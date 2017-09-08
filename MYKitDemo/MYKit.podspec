@@ -18,14 +18,13 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.platform     = :ios, '8.0'
-  s.public_header_files = 'FXKit/FXKitMacro.h'
+  s.public_header_files = 'MYKit/MYKit.h'
   s.source_files = 'MYKit/MYKit.h'
-  s.resources    = 'MYKit/*.{png,xib,nib,bundle}'
   s.frameworks = 'UIKit'
 
   s.subspec 'UIKit' do |ss|
-    ss.source_files = 'MYKit/MYKit/**/*'
-    ss.public_header_files = 'MYKit/MYKit/**/*.h'
+    ss.source_files = 'MYKit/UIKit/**/*'
+    ss.public_header_files = 'MYKit/UIKit/**/*.h'
   end
 
   s.subspec 'Foundation' do |ss|
