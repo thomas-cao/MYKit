@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.platform     = :ios, '8.0'
-  s.source_files = 'MYKit/**/*.{h,m}'
-  s.public_header_files = 'MYKit/**/*.{h}'
+  s.public_header_files = 'MYKit/MYKit.h'
+  s.source_files = 'MYKit/MYKit.h'
   s.frameworks = 'UIKit','Foundation'
 
   s.subspec 'UIKit' do |ss|
