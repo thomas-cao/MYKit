@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 /** @enum ShakeDirection
  *
  * Enum that specifies the direction of the shake
@@ -107,3 +109,5 @@ shakeDirection:(ShakeDirection)shakeDirection
    completion:(nullable void (^)(void))completion;
 
 @end
+
+NS_ASSUME_NONNULL_END

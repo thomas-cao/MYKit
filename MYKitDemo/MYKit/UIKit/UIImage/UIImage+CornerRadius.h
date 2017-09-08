@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface UIImage (CornerRadius)
 
 /**
@@ -83,3 +85,5 @@
 - (nullable UIImage *)circleImage;
 
 @end
+
+NS_ASSUME_NONNULL_END

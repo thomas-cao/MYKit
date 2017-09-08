@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface UIButton (CountDown)
 
 /**
@@ -52,3 +54,5 @@
          countDownTitleBackgroundColor:(UIColor *)countDownTitleBackgroundColor;
 
 @end
+
+NS_ASSUME_NONNULL_END

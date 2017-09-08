@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 typedef NS_ENUM(NSInteger, MYImagePosition) {
     MYImagePositionLeft = 0,              //图片在左，文字在右，默认
     MYImagePositionRight = 1,             //图片在右，文字在左
@@ -26,3 +28,5 @@ typedef NS_ENUM(NSInteger, MYImagePosition) {
 - (void)setImagePosition:(MYImagePosition)postion spacing:(CGFloat)spacing;
 
 @end
+
+NS_ASSUME_NONNULL_END

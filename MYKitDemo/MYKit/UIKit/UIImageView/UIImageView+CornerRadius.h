@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface UIImageView (CornerRadius)
 
 @property (nonatomic, assign) CGFloat myCornerRadius;
 
 @end
+
+NS_ASSUME_NONNULL_END

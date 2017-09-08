@@ -7,7 +7,6 @@
 //
 
 #import "UINavigationItem+Loading.h"
-
 #import <objc/runtime.h>
 
 static void *ANLoaderPositionAssociationKey = &ANLoaderPositionAssociationKey;

@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 /**
  *  Position to show UIActivityIndicatorView in a navigation bar
  */
@@ -41,3 +43,5 @@ typedef NS_ENUM(NSUInteger, ANNavBarLoaderPosition){
 - (void)stopAnimating;
 
 @end
+
+NS_ASSUME_NONNULL_END

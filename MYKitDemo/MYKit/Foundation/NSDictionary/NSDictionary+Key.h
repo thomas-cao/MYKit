@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface NSDictionary (Key)
 
 /**
@@ -47,3 +49,5 @@
 - (NSDictionary *)entriesForKeys:(NSArray *)keys;
 
 @end
+
+NS_ASSUME_NONNULL_END

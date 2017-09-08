@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface UIButton (Submitting)
 
 /**
@@ -34,3 +36,5 @@
 @property(nonatomic, readonly, getter=isSubmitting) NSNumber *submitting;
 
 @end
+
+NS_ASSUME_NONNULL_END

@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface NSObject (AssociatedObject)
 
 - (id)object:(SEL)key;
@@ -23,3 +25,5 @@
 - (void)setCopyObject:(id)object withKey:(SEL)key;
 
 @end
+
+NS_ASSUME_NONNULL_END
