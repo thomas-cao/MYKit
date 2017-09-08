@@ -93,7 +93,6 @@
 #import <MYKit/NSString+Size.h>
 #import <MYKit/NSString+XML.h>
 #import <MYKit/NSString+UUID.h>
-#import <MYKit/NSString+Encode.h>
 #import <MYKit/NSString+Trims.h>
 #import <MYKit/NSString+Emoji.h>
 #import <MYKit/NSString+Contains.h>
@@ -104,7 +103,6 @@
 #import "NSString+Contains.h"
 #import "NSString+Emoji.h"
 #import "NSString+Trims.h"
-#import "NSString+Encode.h"
 #import "NSString+UUID.h"
 #import "NSString+XML.h"
 #import "NSString+Size.h"

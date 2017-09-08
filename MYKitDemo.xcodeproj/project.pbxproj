@@ -91,7 +91,6 @@
 		3213739A1F6270AC00E15D0A /* NSTimer+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 321373991F6270AC00E15D0A /* NSTimer+Addition.m */; };
 		3213739D1F62714000E15D0A /* NSString+XML.m in Sources */ = {isa = PBXBuildFile; fileRef = 3213739C1F62714000E15D0A /* NSString+XML.m */; };
 		321373A01F62725D00E15D0A /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 3213739F1F62725D00E15D0A /* NSString+UUID.m */; };
-		321373A61F6273CC00E15D0A /* NSString+Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = 321373A51F6273CC00E15D0A /* NSString+Encode.m */; };
 		321373A91F62752E00E15D0A /* NSString+Trims.m in Sources */ = {isa = PBXBuildFile; fileRef = 321373A81F62752E00E15D0A /* NSString+Trims.m */; };
 		321373AC1F627C7500E15D0A /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 321373AB1F627C7500E15D0A /* NSString+Emoji.m */; };
 		321373AF1F627CEE00E15D0A /* NSString+Contains.m in Sources */ = {isa = PBXBuildFile; fileRef = 321373AE1F627CEE00E15D0A /* NSString+Contains.m */; };
@@ -287,8 +286,6 @@
 		3213739C1F62714000E15D0A /* NSString+XML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XML.m"; sourceTree = "<group>"; };
 		3213739E1F62725D00E15D0A /* NSString+UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UUID.h"; sourceTree = "<group>"; };
 		3213739F1F62725D00E15D0A /* NSString+UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UUID.m"; sourceTree = "<group>"; };
-		321373A41F6273CC00E15D0A /* NSString+Encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Encode.h"; sourceTree = "<group>"; };
-		321373A51F6273CC00E15D0A /* NSString+Encode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encode.m"; sourceTree = "<group>"; };
 		321373A71F62752E00E15D0A /* NSString+Trims.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Trims.h"; sourceTree = "<group>"; };
 		321373A81F62752E00E15D0A /* NSString+Trims.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Trims.m"; sourceTree = "<group>"; };
 		321373AA1F627C7500E15D0A /* NSString+Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emoji.h"; sourceTree = "<group>"; };
@@ -662,8 +659,6 @@
 				3213739C1F62714000E15D0A /* NSString+XML.m */,
 				3213739E1F62725D00E15D0A /* NSString+UUID.h */,
 				3213739F1F62725D00E15D0A /* NSString+UUID.m */,
-				321373A41F6273CC00E15D0A /* NSString+Encode.h */,
-				321373A51F6273CC00E15D0A /* NSString+Encode.m */,
 				321373A71F62752E00E15D0A /* NSString+Trims.h */,
 				321373A81F62752E00E15D0A /* NSString+Trims.m */,
 				321373AA1F627C7500E15D0A /* NSString+Emoji.h */,
@@ -971,7 +966,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				320695AF1F6010680009FFDA /* UILabel+CountDown.m in Sources */,
-				321373A61F6273CC00E15D0A /* NSString+Encode.m in Sources */,
 				32077C611F600AA5006E4C70 /* UIColor+Random.m in Sources */,
 				321373B51F627D9700E15D0A /* NSObject+AssociatedObject.m in Sources */,
 				321373871F626D1F00E15D0A /* NSFileHandle+ReadLine.m in Sources */,

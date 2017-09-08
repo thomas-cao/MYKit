@@ -14,18 +14,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  *  @brief  view截图
- *
- *  @return 截图
  */
 - (UIImage *)screenshot;
 
 /**
  *
  *  @brief 根据maxWidth截图一个view中的视图
- *
- *  @param maxWidth  最大宽度
- *
- *  @return 截图
  */
 - (UIImage *)screenshot:(CGFloat)maxWidth;
 
