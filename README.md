@@ -1,16 +1,11 @@
 # MYKit
 效率工具类 &amp; 系统文件归类整理；
 
-
-pod lib lint MYKit.podspec
-
-# ZXKit
-
 [![Swift 2.1](https://img.shields.io/badge/Swift-2.1-orange.svg?style=flat)](https://developer.apple.com/swift/)
 [![CI Status](http://img.shields.io/travis/chenyilongyellow/ZXKit.svg?style=flat)](https://travis-ci.org/chenyilongyellow/ZXKit)
-[![Version](https://img.shields.io/cocoapods/v/ZXKit.svg?style=flat)](http://cocoapods.org/pods/ZXKit)
-[![License](https://img.shields.io/cocoapods/l/ZXKit.svg?style=flat)](http://cocoapods.org/pods/ZXKit)
-[![Platform](https://img.shields.io/cocoapods/p/ZXKit.svg?style=flat)](http://cocoapods.org/pods/ZXKit)
+[![Version](https://img.shields.io/cocoapods/v/ZXKit.svg?style=flat)](http://cocoapods.org/pods/MYKit)
+[![License](https://img.shields.io/cocoapods/l/ZXKit.svg?style=flat)](http://cocoapods.org/pods/MYKit)
+[![Platform](https://img.shields.io/cocoapods/p/ZXKit.svg?style=flat)](http://cocoapods.org/pods/MYKit)
 
 
 从CocoaChinaPlus App中抽离出来的基础组件库，纯Swift实现
