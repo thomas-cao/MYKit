@@ -95,6 +95,9 @@
 		321373B51F627D9700E15D0A /* NSObject+AssociatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 321373B21F627D9700E15D0A /* NSObject+AssociatedObject.m */; };
 		321373B61F627D9700E15D0A /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 321373B41F627D9700E15D0A /* NSObject+Swizzling.m */; };
 		321373BA1F627E9F00E15D0A /* NSNumber+Round.m in Sources */ = {isa = PBXBuildFile; fileRef = 321373B91F627E9F00E15D0A /* NSNumber+Round.m */; };
+		4C3894EF1F64E18C00BD95ED /* CIImage+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3894EE1F64E18C00BD95ED /* CIImage+Screenshot.m */; };
+		4C3894F31F64E23500BD95ED /* NSMutableDictionary+ChainProgramming.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3894F21F64E23500BD95ED /* NSMutableDictionary+ChainProgramming.m */; };
+		4C3894F71F64E28B00BD95ED /* NSMutableAttributedString+ChainProgramming.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3894F61F64E28B00BD95ED /* NSMutableAttributedString+ChainProgramming.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -292,6 +295,12 @@
 		321373B41F627D9700E15D0A /* NSObject+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzling.m"; sourceTree = "<group>"; };
 		321373B81F627E9F00E15D0A /* NSNumber+Round.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Round.h"; sourceTree = "<group>"; };
 		321373B91F627E9F00E15D0A /* NSNumber+Round.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Round.m"; sourceTree = "<group>"; };
+		4C3894ED1F64E18C00BD95ED /* CIImage+Screenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CIImage+Screenshot.h"; sourceTree = "<group>"; };
+		4C3894EE1F64E18C00BD95ED /* CIImage+Screenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CIImage+Screenshot.m"; sourceTree = "<group>"; };
+		4C3894F11F64E23500BD95ED /* NSMutableDictionary+ChainProgramming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+ChainProgramming.h"; sourceTree = "<group>"; };
+		4C3894F21F64E23500BD95ED /* NSMutableDictionary+ChainProgramming.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+ChainProgramming.m"; sourceTree = "<group>"; };
+		4C3894F51F64E28B00BD95ED /* NSMutableAttributedString+ChainProgramming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+ChainProgramming.h"; sourceTree = "<group>"; };
+		4C3894F61F64E28B00BD95ED /* NSMutableAttributedString+ChainProgramming.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+ChainProgramming.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -427,6 +436,8 @@
 		32077C221F5FEE96006E4C70 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				4C3894F41F64E27700BD95ED /* NSMutableAttributedString */,
+				4C3894F01F64E1D800BD95ED /* NSMutableDictionary */,
 				321373B71F627E9300E15D0A /* NSNumber */,
 				321373B01F627D7600E15D0A /* NSObject */,
 				321373971F62708700E15D0A /* NSTimer */,
@@ -526,6 +537,8 @@
 				32077C561F600133006E4C70 /* UIImage+CornerRadius.m */,
 				32077C581F60038A006E4C70 /* UIImage+Effect.h */,
 				32077C591F60038A006E4C70 /* UIImage+Effect.m */,
+				4C3894ED1F64E18C00BD95ED /* CIImage+Screenshot.h */,
+				4C3894EE1F64E18C00BD95ED /* CIImage+Screenshot.m */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
@@ -822,6 +835,24 @@
 			path = NSNumber;
 			sourceTree = "<group>";
 		};
+		4C3894F01F64E1D800BD95ED /* NSMutableDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				4C3894F11F64E23500BD95ED /* NSMutableDictionary+ChainProgramming.h */,
+				4C3894F21F64E23500BD95ED /* NSMutableDictionary+ChainProgramming.m */,
+			);
+			path = NSMutableDictionary;
+			sourceTree = "<group>";
+		};
+		4C3894F41F64E27700BD95ED /* NSMutableAttributedString */ = {
+			isa = PBXGroup;
+			children = (
+				4C3894F51F64E28B00BD95ED /* NSMutableAttributedString+ChainProgramming.h */,
+				4C3894F61F64E28B00BD95ED /* NSMutableAttributedString+ChainProgramming.m */,
+			);
+			path = NSMutableAttributedString;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -975,6 +1006,7 @@
 				321373A01F62725D00E15D0A /* NSString+UUID.m in Sources */,
 				321373051F6163FC00E15D0A /* UITextField+Shake.m in Sources */,
 				32077C5A1F60038A006E4C70 /* UIImage+Effect.m in Sources */,
+				4C3894F71F64E28B00BD95ED /* NSMutableAttributedString+ChainProgramming.m in Sources */,
 				321373961F626F6C00E15D0A /* NSURL+URLQuery.m in Sources */,
 				3213737D1F626BBD00E15D0A /* NSDictionary+JSONString.m in Sources */,
 				32077BF51F5FEC6F006E4C70 /* ViewController.m in Sources */,
@@ -1011,6 +1043,7 @@
 				321373411F616B4100E15D0A /* UIApplication+NetworkActivityIndicator.m in Sources */,
 				321373161F61676600E15D0A /* UINavigationController+StackManager.m in Sources */,
 				32077C571F600133006E4C70 /* UIImage+CornerRadius.m in Sources */,
+				4C3894F31F64E23500BD95ED /* NSMutableDictionary+ChainProgramming.m in Sources */,
 				3213734B1F62647800E15D0A /* NSArray+SafeAccess.m in Sources */,
 				321373201F6167C600E15D0A /* UILabel+AutomaticWriting.m in Sources */,
 				3213733D1F616ADB00E15D0A /* UIBarButtonItem+Extension.m in Sources */,
@@ -1030,6 +1063,7 @@
 				32077C4D1F5FF827006E4C70 /* UIView+CustomBorder.m in Sources */,
 				3213735B1F62665B00E15D0A /* NSData+DataCache.m in Sources */,
 				3213730C1F61660900E15D0A /* UITableView+Extension.m in Sources */,
+				4C3894EF1F64E18C00BD95ED /* CIImage+Screenshot.m in Sources */,
 				32077C641F600AE8006E4C70 /* UIColor+Hex.m in Sources */,
 				320695A41F600F780009FFDA /* UIResponder+Chain.m in Sources */,
 				321373361F616A1900E15D0A /* UIButton+TouchAreaInsets.m in Sources */,
