@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/ZXKit.svg?style=flat)](http://cocoapods.org/pods/MYKit)
 [![Platform](https://img.shields.io/cocoapods/p/ZXKit.svg?style=flat)](http://cocoapods.org/pods/MYKit)
 
-MYKit整理了平常项目中经常使用的分类，抽离出来先开源给大家。
+MYKit整理了平常项目中经常使用的分类，是不错的效率工具类 &amp; 系统文件归类整理，抽离出来先开源给大家。
 
 ## Usage
 
