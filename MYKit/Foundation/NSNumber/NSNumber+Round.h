@@ -8,9 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
-
 @interface NSNumber (Round)
 
 /* 展示 */
@@ -44,5 +41,3 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSNumber *)doFloorWithDigit:(NSUInteger)digit;
 
 @end
-
-NS_ASSUME_NONNULL_END

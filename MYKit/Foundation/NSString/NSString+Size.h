@@ -72,6 +72,16 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (CGFloat)heightForFont:(UIFont *)font width:(CGFloat)width;
 
+
+/**
+ 计算字符串的大小
+ */
+- (CGSize)sizeWithMaxWidth:(CGFloat)maxWidth addributes:(NSDictionary *)attributes;
+- (CGSize)sizeWithMaxWidth:(CGFloat)maxWidth font:(UIFont *)font;
+- (CGSize)sizeWithMaxWidth:(CGFloat)maxWidth font:(UIFont *)font lineSpace:(CGFloat)lineSpace;
+- (CGSize)mySizeWithFont:(UIFont *)font maxSize:(CGSize)size lineBreakMode:(NSLineBreakMode)mode;
+- (CGSize)mySizeWithFont:(UIFont *)font;
+
 @end
 
 NS_ASSUME_NONNULL_END

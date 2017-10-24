@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface NSDictionary (SafeAccess)
 
 - (BOOL)hasKey:(NSString *)key;
@@ -59,5 +57,3 @@ NS_ASSUME_NONNULL_BEGIN
 - (CGRect)rectForKey:(id)key;
 
 @end
-
-NS_ASSUME_NONNULL_END

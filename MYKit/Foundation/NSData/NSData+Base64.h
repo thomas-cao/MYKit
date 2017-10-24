@@ -8,8 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface NSData (Base64)
 
 /**
@@ -38,5 +36,3 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSString *)base64EncodedString;
 
 @end
-
-NS_ASSUME_NONNULL_END

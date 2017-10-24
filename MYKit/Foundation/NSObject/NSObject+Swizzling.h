@@ -8,8 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface NSObject (Swizzling)
 
 /**
@@ -65,5 +63,3 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)removeAssociatedValues;
 
 @end
-
-NS_ASSUME_NONNULL_END
