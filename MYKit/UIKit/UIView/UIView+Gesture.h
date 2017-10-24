@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 typedef void (^GestureActionBlock)(UIGestureRecognizer *gestureRecoginzer);
 
 @interface UIView (Gesture)
@@ -29,6 +27,3 @@ typedef void (^GestureActionBlock)(UIGestureRecognizer *gestureRecoginzer);
 - (void)addLongPressActionWithBlock:(GestureActionBlock)block;
 
 @end
-
-
-NS_ASSUME_NONNULL_END

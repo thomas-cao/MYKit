@@ -8,12 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface UIImageView (FaceAwareFill)
 
 - (void)faceAwareFill;
 
 @end
-
-NS_ASSUME_NONNULL_END

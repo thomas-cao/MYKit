@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 typedef NS_OPTIONS(NSUInteger, JKExcludePoint) {
     JKExcludeStartPoint = 1 << 0,
     JKExcludeEndPoint = 1 << 1,
@@ -50,5 +48,3 @@ typedef NS_OPTIONS(NSUInteger, JKExcludePoint) {
                        edgeType:(JKExcludePoint)edge;
 
 @end
-
-NS_ASSUME_NONNULL_END

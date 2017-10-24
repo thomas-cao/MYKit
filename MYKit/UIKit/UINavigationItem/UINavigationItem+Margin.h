@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 FOUNDATION_EXPORT double UINavigationItem_MarginVersionNumber;
 FOUNDATION_EXPORT const unsigned char UINavigationItem_MarginVersionString[];
 
@@ -21,5 +19,3 @@ FOUNDATION_EXPORT const unsigned char UINavigationItem_MarginVersionString[];
 + (CGFloat)systemMargin;
 
 @end
-
-NS_ASSUME_NONNULL_END

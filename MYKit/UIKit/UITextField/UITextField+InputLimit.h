@@ -8,12 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface UITextField (InputLimit)
 
 @property (nonatomic, assign) NSInteger maxLength;//if <=0, no limit
 
 @end
 
-NS_ASSUME_NONNULL_END

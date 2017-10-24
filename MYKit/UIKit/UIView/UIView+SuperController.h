@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface UIView (SuperController)
 
 + (UIViewController *)viewController:(UIView *)view;
@@ -18,5 +16,3 @@ NS_ASSUME_NONNULL_BEGIN
 - (UINavigationController *)navigationController;
 
 @end
-
-NS_ASSUME_NONNULL_END

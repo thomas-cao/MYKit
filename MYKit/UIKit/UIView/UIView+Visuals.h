@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface UIView (Visuals)
 
 /*
@@ -61,5 +59,3 @@ NS_ASSUME_NONNULL_BEGIN
      timingFunction:(CAMediaTimingFunction *)timingFunction;
 
 @end
-
-NS_ASSUME_NONNULL_END

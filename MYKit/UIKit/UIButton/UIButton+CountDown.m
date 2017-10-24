@@ -11,6 +11,13 @@
 @implementation UIButton (CountDown)
 
 - (void)scheduledTimerWithTimeInterval:(NSInteger)seconds
+                        countDownTitle:(NSString *)title {
+    [self scheduledTimerWithTimeInterval:seconds
+                          countDownTitle:title
+                              completion:nil];
+}
+
+- (void)scheduledTimerWithTimeInterval:(NSInteger)seconds
                         countDownTitle:(NSString *)title
                             completion:(void (^)(void))completion {
     // 倒计时时间
@@ -35,7 +42,7 @@
             int seconds = timeOut % allTime;
             NSString *timeStr = [NSString stringWithFormat:@"%d", seconds];
             dispatch_async(dispatch_get_main_queue(), ^{
-                [self setTitle:[NSString stringWithFormat:@"%@%@",timeStr,title] forState:UIControlStateNormal];
+                [self setTitle:[NSString stringWithFormat:@"(%@)%@",timeStr,title] forState:UIControlStateNormal];
                 self.userInteractionEnabled = NO;
             });
             timeOut--;
@@ -44,12 +51,27 @@
     dispatch_resume(_timer);
 }
 
+
 - (void)scheduledTimerWithTimeInterval:(NSInteger)seconds
                                  title:(NSString *)title
                         countDownTitle:(NSString *)subTitle
                         titleTextColor:(UIColor *)titleTextColor
                countDownTitleTextColor:(UIColor *)countDownTitleTextColor {
     
+    [self scheduledTimerWithTimeInterval:seconds
+                                   title:title
+                          countDownTitle:subTitle
+                          titleTextColor:titleTextColor
+                 countDownTitleTextColor:countDownTitleTextColor
+                              completion:nil];
+}
+
+- (void)scheduledTimerWithTimeInterval:(NSInteger)seconds
+                                 title:(NSString *)title
+                        countDownTitle:(NSString *)subTitle
+                        titleTextColor:(UIColor *)titleTextColor
+               countDownTitleTextColor:(UIColor *)countDownTitleTextColor
+                            completion:(void (^)(void))completion {
     __weak typeof(self) weakSelf = self;
     // 倒计时时间
     __block NSInteger timeOut = seconds;
@@ -66,6 +88,9 @@
                 [weakSelf setTitleColor:titleTextColor forState:UIControlStateNormal];
                 [weakSelf setTitle:title forState:UIControlStateNormal];
                 weakSelf.userInteractionEnabled = YES;
+                if (completion) {
+                    completion();
+                }
             });
         } else {
             int allTime = (int)seconds + 1;
@@ -73,7 +98,7 @@
             NSString *timeStr = [NSString stringWithFormat:@"%0.2d", seconds];
             dispatch_async(dispatch_get_main_queue(), ^{
                 [weakSelf setTitleColor:countDownTitleTextColor forState:UIControlStateNormal];
-                [weakSelf setTitle:[NSString stringWithFormat:@"%@%@",timeStr,subTitle] forState:UIControlStateNormal];
+                [weakSelf setTitle:[NSString stringWithFormat:@"(%@)%@",timeStr,subTitle] forState:UIControlStateNormal];
                 weakSelf.userInteractionEnabled = NO;
             });
             timeOut--;
@@ -87,6 +112,20 @@
                         countDownTitle:(NSString *)subTitle
                   titleBackgroundColor:(UIColor *)titleBackgroundColor
          countDownTitleBackgroundColor:(UIColor *)countDownTitleBackgroundColor {
+    [self scheduledTimerWithTimeInterval:seconds
+                                   title:title
+                          countDownTitle:subTitle
+                    titleBackgroundColor:titleBackgroundColor
+           countDownTitleBackgroundColor:countDownTitleBackgroundColor
+                              completion:nil];
+}
+
+- (void)scheduledTimerWithTimeInterval:(NSInteger)seconds
+                                 title:(NSString *)title
+                        countDownTitle:(NSString *)subTitle
+                  titleBackgroundColor:(UIColor *)titleBackgroundColor
+         countDownTitleBackgroundColor:(UIColor *)countDownTitleBackgroundColor
+                            completion:(void (^)(void))completion {
     __weak typeof(self) weakSelf = self;
     // 倒计时时间
     __block NSInteger timeOut = seconds;
@@ -103,6 +142,9 @@
                 weakSelf.backgroundColor = titleBackgroundColor;
                 [weakSelf setTitle:title forState:UIControlStateNormal];
                 weakSelf.userInteractionEnabled = YES;
+                if (completion) {
+                    completion();
+                }
             });
         } else {
             int allTime = (int)seconds + 1;
@@ -110,7 +152,7 @@
             NSString *timeStr = [NSString stringWithFormat:@"%0.2d", seconds];
             dispatch_async(dispatch_get_main_queue(), ^{
                 weakSelf.backgroundColor = countDownTitleBackgroundColor;
-                [weakSelf setTitle:[NSString stringWithFormat:@"%@%@",timeStr,subTitle] forState:UIControlStateNormal];
+                [weakSelf setTitle:[NSString stringWithFormat:@"(%@)%@",timeStr,subTitle] forState:UIControlStateNormal];
                 weakSelf.userInteractionEnabled = NO;
             });
             timeOut--;

@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface UIView (Position)
 
 @property (nonatomic, assign) CGFloat x;
@@ -26,5 +24,3 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) CGFloat bottom;
 
 @end
-
-NS_ASSUME_NONNULL_END
