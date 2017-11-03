@@ -10,6 +10,7 @@
 		320695A41F600F780009FFDA /* UIResponder+Chain.m in Sources */ = {isa = PBXBuildFile; fileRef = 320695A31F600F780009FFDA /* UIResponder+Chain.m */; };
 		320695A81F6010070009FFDA /* UIButton+CountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 320695A71F6010070009FFDA /* UIButton+CountDown.m */; };
 		320695AF1F6010680009FFDA /* UILabel+CountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 320695AE1F6010680009FFDA /* UILabel+CountDown.m */; };
+		3207745E1FACA36700A56F88 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3207745D1FACA36700A56F88 /* libz.tbd */; };
 		32077BEF1F5FEC6F006E4C70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077BEE1F5FEC6F006E4C70 /* main.m */; };
 		32077BF21F5FEC6F006E4C70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077BF11F5FEC6F006E4C70 /* AppDelegate.m */; };
 		32077BF51F5FEC6F006E4C70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32077BF41F5FEC6F006E4C70 /* ViewController.m */; };
@@ -100,7 +101,6 @@
 		3285059B1F9F530F0098E2C0 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3285059A1F9F530F0098E2C0 /* UIImage+Extension.m */; };
 		3285059E1F9F53940098E2C0 /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3285059D1F9F53940098E2C0 /* UILabel+Extension.m */; };
 		328505A21F9F53BD0098E2C0 /* UINavigationBar+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 328505A11F9F53BC0098E2C0 /* UINavigationBar+Extension.m */; };
-		328505A51F9F56190098E2C0 /* NSData+GZip.m in Sources */ = {isa = PBXBuildFile; fileRef = 328505A41F9F56190098E2C0 /* NSData+GZip.m */; };
 		328505A81F9F56300098E2C0 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 328505A71F9F56300098E2C0 /* NSDate+Extension.m */; };
 		328505AB1F9F57C80098E2C0 /* NSString+Regular.m in Sources */ = {isa = PBXBuildFile; fileRef = 328505AA1F9F57C80098E2C0 /* NSString+Regular.m */; };
 		328505B01F9F57D30098E2C0 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 328505AD1F9F57D30098E2C0 /* NSString+Extension.m */; };
@@ -135,6 +135,7 @@
 		320695A71F6010070009FFDA /* UIButton+CountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CountDown.m"; sourceTree = "<group>"; };
 		320695AD1F6010680009FFDA /* UILabel+CountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CountDown.h"; sourceTree = "<group>"; };
 		320695AE1F6010680009FFDA /* UILabel+CountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CountDown.m"; sourceTree = "<group>"; };
+		3207745D1FACA36700A56F88 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		32077BEA1F5FEC6F006E4C70 /* MYKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32077BEE1F5FEC6F006E4C70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32077BF01F5FEC6F006E4C70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -316,8 +317,6 @@
 		3285059D1F9F53940098E2C0 /* UILabel+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extension.m"; sourceTree = "<group>"; };
 		328505A01F9F53BC0098E2C0 /* UINavigationBar+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Extension.h"; sourceTree = "<group>"; };
 		328505A11F9F53BC0098E2C0 /* UINavigationBar+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Extension.m"; sourceTree = "<group>"; };
-		328505A31F9F56190098E2C0 /* NSData+GZip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+GZip.h"; sourceTree = "<group>"; };
-		328505A41F9F56190098E2C0 /* NSData+GZip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+GZip.m"; sourceTree = "<group>"; };
 		328505A61F9F56300098E2C0 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
 		328505A71F9F56300098E2C0 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
 		328505A91F9F57C80098E2C0 /* NSString+Regular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Regular.h"; sourceTree = "<group>"; };
@@ -341,6 +340,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3207745E1FACA36700A56F88 /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +395,14 @@
 			path = UILabel;
 			sourceTree = "<group>";
 		};
+		3207745C1FACA36700A56F88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3207745D1FACA36700A56F88 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		32077BE11F5FEC6F006E4C70 = {
 			isa = PBXGroup;
 			children = (
@@ -403,6 +411,7 @@
 				32077C061F5FEC6F006E4C70 /* MYKitDemoTests */,
 				32077C111F5FEC6F006E4C70 /* MYKitDemoUITests */,
 				32077BEB1F5FEC6F006E4C70 /* Products */,
+				3207745C1FACA36700A56F88 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -779,8 +788,6 @@
 				321373611F62675300E15D0A /* NSData+Encrypt.m */,
 				321373631F62680D00E15D0A /* NSData+Encode.h */,
 				321373641F62680D00E15D0A /* NSData+Encode.m */,
-				328505A31F9F56190098E2C0 /* NSData+GZip.h */,
-				328505A41F9F56190098E2C0 /* NSData+GZip.m */,
 			);
 			path = NSData;
 			sourceTree = "<group>";
@@ -1074,7 +1081,6 @@
 				3213735A1F62665B00E15D0A /* NSData+Base64.m in Sources */,
 				32077C2A1F5FEF7B006E4C70 /* UIImageView+Reflect.m in Sources */,
 				321372F81F61621C00E15D0A /* UITextView+PlaceHolder.m in Sources */,
-				328505A51F9F56190098E2C0 /* NSData+GZip.m in Sources */,
 				32077C6B1F600C7A006E4C70 /* UINavigationItem+Margin.m in Sources */,
 				328505981F9F52010098E2C0 /* UIActionSheet+Extension.m in Sources */,
 				3213738F1F626E1000E15D0A /* NSUserDefaults+SafeAccess.m in Sources */,
