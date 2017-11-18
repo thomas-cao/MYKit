@@ -76,7 +76,6 @@
 #import <MYKit/UIImageView+FaceAwareFill.h>
 #import <MYKit/UIImageView+Letters.h>
 #import <MYKit/UIImageView+BetterFace.h>
-#import <MYKit/UIImageView+Addition.h>
 
 #import <MYKit/NSNull+NSNullSafe.h>
 #import <MYKit/NSMutableAttributedString+ChainProgramming.h>
