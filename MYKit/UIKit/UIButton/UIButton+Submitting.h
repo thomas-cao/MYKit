@@ -8,29 +8,37 @@
 
 #import <UIKit/UIKit.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
+/**
+ *  @author foxsofter, 15-09-24 10:09:49
+ *
+ *  @brief  为UIButton添加提交状态，通过ActivityIndicator表示
+ */
 @interface UIButton (Submitting)
 
 /**
- *  @author foxsofter, 15-04-02 15:04:59
- *
+ *  @brief  按钮点击后，禁用按钮并居中显示ActivityIndicator
+ */
+- (void)beginSubmitting;
+
+/**
  *  @brief  按钮点击后，禁用按钮并在按钮上显示ActivityIndicator，以及title
  *
  *  @param title 按钮上显示的文字
  */
-- (void)beginSubmitting:(NSString *)title;
+- (void)beginSubmitting:(NSString * _Nullable)title;
 
 /**
- *  @author foxsofter, 15-04-02 15:04:13
- *
  *  @brief  按钮点击后，恢复按钮点击前的状态
  */
 - (void)endSubmitting;
 
 /**
- *  @author foxsofter, 15-04-02 15:04:17
- *
  *  @brief  按钮是否正在提交中
  */
-@property(nonatomic, readonly, getter=isSubmitting) NSNumber *submitting;
+@property (nonatomic, readonly, getter=isSubmitting) BOOL submitting;
 
 @end
+
+NS_ASSUME_NONNULL_END

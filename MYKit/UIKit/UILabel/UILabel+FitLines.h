@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+typedef NS_ENUM(NSInteger, MYAdjustAlignment) {
+    MYAdjustAlignmentLeft,
+    MYAdjustAlignmentRight,
+    MYAdjustAlignmentBottom,
+    MYAdjustAlignmentTop,
+    MYAdjustAlignmentCenter,
+};
+
 @interface UILabel (FitLines)
 
 /**
@@ -27,6 +35,18 @@
  @return 文本是否被numberOfLines限制
  */
 - (BOOL)my_adjustTextToFitLines:(NSInteger)numberOfLines;
+
+/**
+ *  adjust label size and orgin point
+ *  MYAdjustAlignmentLeft LPDAdjustAlignmentRight H adjust
+ *  MYAdjustAlignmentBottom LPDAdjustAlignmentTop V adjust
+ *
+ */
+
+- (void)adjustSizeAlignment:(MYAdjustAlignment)adjustAlignment;
+
+- (void)adjustSizeAlignment:(MYAdjustAlignment)adjustAlignment
+                    margins:(CGFloat)margins;
 
 
 @end

@@ -84,4 +84,63 @@
     return [objc_getAssociatedObject(self, @selector(myConstrainedWidth)) floatValue];
 }
 
+- (void)adjustSizeAlignment:(MYAdjustAlignment)adjustAlignment {
+    
+    [self  adjustSizeAlignment:adjustAlignment
+                       margins:5.0];
+    
+}
+
+- (void)adjustSizeAlignment:(MYAdjustAlignment)adjustAlignment
+                    margins:(CGFloat)margins {
+    CGRect rect ;
+    switch (adjustAlignment) {
+        case MYAdjustAlignmentLeft:
+        case MYAdjustAlignmentRight: {
+            rect = [self.text boundingRectWithSize:CGSizeMake(MAXFLOAT, CGRectGetHeight(self.frame)) options:NSStringDrawingUsesLineFragmentOrigin|NSStringDrawingUsesFontLeading attributes:[self attributes] context:nil];
+            break;
+        }
+        case MYAdjustAlignmentBottom:
+        case MYAdjustAlignmentTop: {
+            rect = [self.text boundingRectWithSize:CGSizeMake(CGRectGetWidth(self.frame),MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin |NSStringDrawingUsesFontLeading attributes:[self attributes] context:nil];
+            break;
+        }
+        case MYAdjustAlignmentCenter: {
+            rect = [self.text boundingRectWithSize:CGSizeMake(MAXFLOAT,MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin|NSStringDrawingUsesFontLeading attributes:[self attributes] context:nil];
+            break;
+        }
+    }
+    
+    switch (adjustAlignment) {
+        case MYAdjustAlignmentLeft: {
+            self.frame = CGRectMake(CGRectGetMinX(self.frame), CGRectGetMinY(self.frame), CGRectGetWidth(rect)+margins, CGRectGetHeight(self.frame)+margins);
+            break;
+        }
+        case MYAdjustAlignmentRight: {
+            self.frame = CGRectMake(CGRectGetMaxX(self.frame)-CGRectGetWidth(rect)-margins, CGRectGetMinY(self.frame), CGRectGetWidth(rect)+margins, CGRectGetHeight(self.frame)+margins);
+            break;
+        }
+        case MYAdjustAlignmentBottom: {
+            self.frame = CGRectMake(CGRectGetMinX(self.frame), CGRectGetMaxY(self.frame)-CGRectGetHeight(rect)-margins, CGRectGetWidth(self.frame)+margins, CGRectGetHeight(rect)+margins);
+            break;
+        }
+        case MYAdjustAlignmentTop: {
+            self.frame = CGRectMake(CGRectGetMinX(self.frame), CGRectGetMinY(self.frame), CGRectGetWidth(self.frame)+margins, CGRectGetHeight(rect)+margins);
+            break;
+        }
+        case MYAdjustAlignmentCenter: {
+            CGPoint center = self.center;
+            self.frame = CGRectMake(0, 0, CGRectGetWidth(rect)+margins, CGRectGetHeight(rect)+margins);
+            self.center = center;
+            break;
+        }
+    }
+}
+
+- (NSDictionary *)attributes {
+    
+    return @{NSFontAttributeName:self.font};
+    
+}
+
 @end

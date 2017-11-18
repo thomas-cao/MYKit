@@ -30,4 +30,6 @@
  */
 + (NSDictionary *)dictionaryWithJsonString:(NSString *)jsonString;
 
+- (NSString *)reverse;
+
 @end

@@ -39,4 +39,20 @@
  */
 + (NSString *)getVersionNumber;
 
++ (NSString *)platform;
+
++ (BOOL)isSimulator;
+
++ (NSString *)platformString;
+
++ (BOOL)p35InchDisplay;
+
++ (BOOL)p4InchDisplay;
+
++ (BOOL)p47InchDisplay;
+
++ (BOOL)p55InchDiplay;
+
++ (NSString *)getIPAddress:(BOOL)preferIPv4;
+
 @end

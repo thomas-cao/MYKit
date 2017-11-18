@@ -44,4 +44,15 @@
     return dic;
 }
 
+- (NSString *)reverse {
+    NSMutableString *reversedString = [NSMutableString string];
+    NSInteger charIndex = [self length];
+    while (charIndex > 0) {
+        charIndex--;
+        NSRange subStrRange = NSMakeRange(charIndex, 1);
+        [reversedString appendString:[self substringWithRange:subStrRange]];
+    }
+    return [reversedString copy];
+}
+
 @end

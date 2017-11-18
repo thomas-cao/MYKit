@@ -8,12 +8,13 @@
 
 #import "UIButton+Submitting.h"
 #import "NSObject+AssociatedObject.h"
+#import "UIView+Position.h"
 
 @interface UIButton ()
 
-@property(nonatomic, strong) UIView *modalView;
-@property(nonatomic, strong) UIActivityIndicatorView *spinnerView;
-@property(nonatomic, strong) UILabel *spinnerTitleLabel;
+@property (nonatomic, strong, nullable) UIView *modalView;
+@property (nonatomic, strong, nullable) UIActivityIndicatorView *spinnerView;
+@property (nonatomic, strong, nullable) UILabel *spinnerTitleLabel;
 
 @end
 
@@ -22,42 +23,47 @@
 - (void)beginSubmitting:(NSString *)title {
     [self endSubmitting];
     
-    self.submitting = @YES;
+    self.submitting = YES;
     self.hidden = YES;
     
     self.modalView = [[UIView alloc] initWithFrame:self.frame];
-    self.modalView.backgroundColor =
-    [self.backgroundColor colorWithAlphaComponent:0.6];
+    self.modalView.backgroundColor = [self.backgroundColor colorWithAlphaComponent:0.6];
     self.modalView.layer.cornerRadius = self.layer.cornerRadius;
     self.modalView.layer.borderWidth = self.layer.borderWidth;
     self.modalView.layer.borderColor = self.layer.borderColor;
     
     CGRect viewBounds = self.modalView.bounds;
-    self.spinnerView = [[UIActivityIndicatorView alloc]
-                        initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
+    self.spinnerView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhite];
     self.spinnerView.tintColor = self.titleLabel.textColor;
-    
-    CGRect spinnerViewBounds = self.spinnerView.bounds;
-    self.spinnerView.frame = CGRectMake(
-                                        15, viewBounds.size.height / 2 - spinnerViewBounds.size.height / 2,
-                                        spinnerViewBounds.size.width, spinnerViewBounds.size.height);
-    self.spinnerTitleLabel = [[UILabel alloc] initWithFrame:viewBounds];
-    self.spinnerTitleLabel.textAlignment = NSTextAlignmentCenter;
-    self.spinnerTitleLabel.text = title;
-    self.spinnerTitleLabel.font = self.titleLabel.font;
-    self.spinnerTitleLabel.textColor = self.titleLabel.textColor;
+    self.spinnerView.frame = CGRectMake(10, 5, self.height - 10, self.height - 10);
     [self.modalView addSubview:self.spinnerView];
-    [self.modalView addSubview:self.spinnerTitleLabel];
+    
+    if (title && title.length > 0) {
+        self.spinnerTitleLabel = [[UILabel alloc] initWithFrame:viewBounds];
+        self.spinnerTitleLabel.textAlignment = NSTextAlignmentCenter;
+        self.spinnerTitleLabel.text = title;
+        self.spinnerTitleLabel.font = self.titleLabel.font;
+        self.spinnerTitleLabel.textColor = self.titleLabel.textColor;
+        [self.modalView addSubview:self.spinnerTitleLabel];
+        
+        self.spinnerTitleLabel.x += self.height;
+    } else {
+        self.spinnerView.x = self.centerX;
+    }
     [self.superview addSubview:self.modalView];
     [self.spinnerView startAnimating];
 }
 
+- (void)beginSubmitting {
+    [self beginSubmitting:nil];
+}
+
 - (void)endSubmitting {
-    if (!self.isSubmitting.boolValue) {
+    if (!self.isSubmitting) {
         return;
     }
     
-    self.submitting = @NO;
+    self.submitting = NO;
     self.hidden = NO;
     
     [self.modalView removeFromSuperview];
@@ -66,12 +72,12 @@
     self.spinnerTitleLabel = nil;
 }
 
-- (NSNumber *)isSubmitting {
-    return [self object:@selector(setSubmitting:)];
+- (BOOL)isSubmitting {
+    return ((NSNumber *)[self object:@selector(setSubmitting:)]).boolValue;
 }
 
-- (void)setSubmitting:(NSNumber *)submitting {
-    [self setRetainNonatomicObject:submitting withKey:@selector(setSubmitting:)];
+- (void)setSubmitting:(BOOL)submitting {
+    [self setRetainNonatomicObject:@(submitting) withKey:@selector(setSubmitting:)];
 }
 
 - (UIActivityIndicatorView *)spinnerView {
@@ -79,8 +85,7 @@
 }
 
 - (void)setSpinnerView:(UIActivityIndicatorView *)spinnerView {
-    [self setRetainNonatomicObject:spinnerView
-                           withKey:@selector(setSpinnerView:)];
+    [self setRetainNonatomicObject:spinnerView withKey:@selector(setSpinnerView:)];
 }
 
 - (UIView *)modalView {
@@ -96,8 +101,7 @@
 }
 
 - (void)setSpinnerTitleLabel:(UILabel *)spinnerTitleLabel {
-    [self setRetainNonatomicObject:spinnerTitleLabel
-                           withKey:@selector(setSpinnerTitleLabel:)];
+    [self setRetainNonatomicObject:spinnerTitleLabel withKey:@selector(setSpinnerTitleLabel:)];
 }
 
 @end

@@ -10,6 +10,7 @@
 #import "UIImage+CornerRadius.h"
 #import "UIImage+Color.h"
 #import "UIImageView+CornerRadius.h"
+#import "XXObject.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
@@ -21,7 +22,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.imageView.image = [self.imageView.image circleImage];
+//    self.imageView.image = [self.imageView.image circleImage];
+    
+    XXObject *object1 = [[XXObject alloc] init];
 }
 
 

@@ -40,4 +40,10 @@
  */
 - (NSNumber *)doFloorWithDigit:(NSUInteger)digit;
 
+/**
+ *  将当前金额数值转成中文繁体金额
+ *  1234567890.31 <=> 壹拾貳億叁仟肆佰伍拾陸萬柒仟捌佰玖拾圓叁角壹分
+ */
+- (NSString *)traditionalMoneyString;
+
 @end
