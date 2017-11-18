@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MYKit"
-  s.version      = "1.0.4"
+  s.version      = "1.0.5"
   s.summary      = "效率工具类 & 系统文件归类整理；"
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/sunjinshuai/MYKit.git", :tag => "1.0.4" 
+  s.source       = { :git => "https://github.com/sunjinshuai/MYKit.git", :tag => "1.0.5" 
   }
 
 
