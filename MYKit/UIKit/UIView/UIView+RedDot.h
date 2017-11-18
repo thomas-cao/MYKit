@@ -18,4 +18,22 @@
 
 - (void)hiddenRedDot;
 
+/**
+ *  @brief 是否显示badge
+ */
+@property (nonatomic, assign) BOOL shouldShowBadge;
+
+/**
+ *  @brief badge内容，为空则显示小红点
+ */
+@property (nonatomic, copy) NSString *badgeString;
+
+@property (nonatomic, strong) UILabel *badgeLabel;
+
+
+/**
+ *  @brief 配置badge，参数UIView didMoveToSuperview
+ */
+@property (nonatomic, copy, nullable) void (^badgeConfigBlock)(UIView *);
+
 @end

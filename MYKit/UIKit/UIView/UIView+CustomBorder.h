@@ -8,43 +8,65 @@
 
 #import <UIKit/UIKit.h>
 
-typedef NS_OPTIONS(NSUInteger, JKExcludePoint) {
-    JKExcludeStartPoint = 1 << 0,
-    JKExcludeEndPoint = 1 << 1,
-    JKExcludeAllPoint = ~0UL
+typedef NS_ENUM(NSUInteger, MYUIViewBorderType) {
+    MYUIViewBorderTypeSolid,
+    MYUIViewBorderTypeDashed,
+    MYUIViewBorderTypeDoted
+};
+
+typedef NS_OPTIONS(NSUInteger, MYUIViewBorderPosition) {
+    MYUIViewBorderPositionNone = 0,
+    MYUIViewBorderPositionTop = 1 << 0,
+    MYUIViewBorderPositionRight = 1 << 1,
+    MYUIViewBorderPositionBottom = 1 << 2,
+    MYUIViewBorderPositionLeft = 1 << 3,
 };
 
 @interface UIView (CustomBorder)
 
-- (void)addTopBorderWithColor:(UIColor *)color width:(CGFloat)borderWidth;
-- (void)addLeftBorderWithColor:(UIColor *)color width:(CGFloat)borderWidth;
-- (void)addBottomBorderWithColor:(UIColor *)color width:(CGFloat)borderWidth;
-- (void)addRightBorderWithColor:(UIColor *)color width:(CGFloat)borderWidth;
+- (CAShapeLayer *)borderLayer;
 
-- (void)removeTopBorder;
-- (void)removeLeftBorder;
-- (void)removeBottomBorder;
-- (void)removeRightBorder;
+/**
+ *  @brief  设置UIView的border,绘制所有border
+ *
+ *  @param borderWidth borderWidth
+ *  @param borderColor borderColor
+ */
+- (void)setBorder:(CGFloat)borderWidth borderColor:(UIColor *)borderColor;
 
+/**
+ *  @brief  设置UIView的border，根据borderPosition设置对应的border
+ *
+ *  @param borderWidth    borderWidth
+ *  @param borderColor    borderColor
+ *  @param borderPosition borderPosition
+ */
+- (void)setBorder:(CGFloat)borderWidth
+      borderColor:(UIColor *)borderColor
+   borderPosition:(MYUIViewBorderPosition)borderPosition;
 
-- (void)addTopBorderWithColor:(UIColor *)color
-                        width:(CGFloat)borderWidth
-                 excludePoint:(CGFloat)point
-                     edgeType:(JKExcludePoint)edge;
+/**
+ *  @brief  设置UIView的border,根据borderType绘制所有border
+ *
+ *  @param borderWidth borderWidth
+ *  @param borderColor borderColor
+ *  @param borderType  borderType
+ */
+- (void)setBorder:(CGFloat)borderWidth borderColor:(UIColor *)borderColor borderType:(MYUIViewBorderType)borderType;
 
-- (void)addLeftBorderWithColor:(UIColor *)color
-                         width:(CGFloat)borderWidth
-                  excludePoint:(CGFloat)point
-                      edgeType:(JKExcludePoint)edge;
+/**
+ *  @brief  设置UIView的border,根据borderType和borderPosition绘制border
+ *
+ *  @param borderWidth    borderWidth
+ *  @param borderColor    borderColor
+ *  @param borderPosition borderPosition
+ *  @param borderType     borderType
+ */
+- (void)setBorder:(CGFloat)borderWidth
+      borderColor:(UIColor *)borderColor
+   borderPosition:(MYUIViewBorderPosition)borderPosition
+       borderType:(MYUIViewBorderType)borderType;
 
-- (void)addBottomBorderWithColor:(UIColor *)color
-                           width:(CGFloat)borderWidth
-                    excludePoint:(CGFloat)point
-                        edgeType:(JKExcludePoint)edge;
-
-- (void)addRightBorderWithColor:(UIColor *)color
-                          width:(CGFloat)borderWidth
-                   excludePoint:(CGFloat)point
-                       edgeType:(JKExcludePoint)edge;
+- (void)setLineDashPattern:(NSArray<NSNumber *> *)lineDashPattern;
 
 @end

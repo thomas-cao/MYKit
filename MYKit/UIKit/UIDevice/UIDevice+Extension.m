@@ -7,21 +7,17 @@
 //
 
 #import "UIDevice+Extension.h"
-#import "sys/utsname.h"
 #import "NSString+Extension.h"
-#import "sys/utsname.h"
-#import <sys/socket.h> // Per msqr
-#import <sys/sysctl.h>
-#import <net/if.h>
-#import <net/if_dl.h>
-#import <sys/sockio.h>
-#import <sys/ioctl.h>
-#import <arpa/inet.h>
+#include <sys/utsname.h>
+#include <sys/socket.h> // Per msqr
+#include <sys/sockio.h>
+#include <sys/ioctl.h>
 #include <sys/sysctl.h>
 #include <sys/types.h>
+#include <net/if.h>
+#include <net/if_dl.h>
 #include <arpa/inet.h>
 #include <ifaddrs.h>
-#import <net/if.h>
 
 #define IOS_CELLULAR @"pdp_ip0"
 #define IOS_WIFI @"en0"

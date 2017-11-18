@@ -103,12 +103,8 @@
 		325AFEAF1FC02951009FF8B1 /* UIView+RedDot.m in Sources */ = {isa = PBXBuildFile; fileRef = 325AFEAE1FC02951009FF8B1 /* UIView+RedDot.m */; };
 		325AFEB21FC029AC009FF8B1 /* UIView+Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 325AFEB11FC029AC009FF8B1 /* UIView+Line.m */; };
 		325AFEB51FC029E5009FF8B1 /* UIView+FindSubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 325AFEB41FC029E5009FF8B1 /* UIView+FindSubView.m */; };
-		325AFEB81FC02A3F009FF8B1 /* UIView+LPDBorders.m in Sources */ = {isa = PBXBuildFile; fileRef = 325AFEB71FC02A3F009FF8B1 /* UIView+LPDBorders.m */; };
-		325AFEBB1FC02A51009FF8B1 /* UIView+LPDBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 325AFEBA1FC02A51009FF8B1 /* UIView+LPDBadge.m */; };
 		325AFEBE1FC02A75009FF8B1 /* UIView+CornerRadii.m in Sources */ = {isa = PBXBuildFile; fileRef = 325AFEBD1FC02A75009FF8B1 /* UIView+CornerRadii.m */; };
-		325AFEC21FC02ADC009FF8B1 /* UIScreen+LPDAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 325AFEC11FC02ADC009FF8B1 /* UIScreen+LPDAccessor.m */; };
 		325AFEC51FC02B0D009FF8B1 /* UINavigationItem+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 325AFEC41FC02B0D009FF8B1 /* UINavigationItem+Addition.m */; };
-		325AFEC81FC02BBE009FF8B1 /* UIImage+LPDAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 325AFEC71FC02BBE009FF8B1 /* UIImage+LPDAddition.m */; };
 		328505941F9F51ED0098E2C0 /* UIDevice+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 328505931F9F51ED0098E2C0 /* UIDevice+Extension.m */; };
 		328505981F9F52010098E2C0 /* UIActionSheet+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 328505971F9F52010098E2C0 /* UIActionSheet+Extension.m */; };
 		3285059B1F9F530F0098E2C0 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3285059A1F9F530F0098E2C0 /* UIImage+Extension.m */; };
@@ -119,6 +115,7 @@
 		328505B01F9F57D30098E2C0 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 328505AD1F9F57D30098E2C0 /* NSString+Extension.m */; };
 		328505B11F9F57D30098E2C0 /* NSString+FitLines.m in Sources */ = {isa = PBXBuildFile; fileRef = 328505AF1F9F57D30098E2C0 /* NSString+FitLines.m */; };
 		328505B41F9F57FA0098E2C0 /* NSString+Attributed.m in Sources */ = {isa = PBXBuildFile; fileRef = 328505B31F9F57FA0098E2C0 /* NSString+Attributed.m */; };
+		329AD3741FC030190036CF6D /* UIScreen+Accessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 329AD3731FC030190036CF6D /* UIScreen+Accessor.m */; };
 		32A7AA791FB3DA8F004B21D1 /* XXObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A7AA781FB3DA8F004B21D1 /* XXObject.m */; };
 		4C3894EF1F64E18C00BD95ED /* CIImage+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3894EE1F64E18C00BD95ED /* CIImage+Screenshot.m */; };
 		4C3894F31F64E23500BD95ED /* NSMutableDictionary+ChainProgramming.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3894F21F64E23500BD95ED /* NSMutableDictionary+ChainProgramming.m */; };
@@ -335,18 +332,10 @@
 		325AFEB11FC029AC009FF8B1 /* UIView+Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Line.m"; sourceTree = "<group>"; };
 		325AFEB31FC029E5009FF8B1 /* UIView+FindSubView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FindSubView.h"; sourceTree = "<group>"; };
 		325AFEB41FC029E5009FF8B1 /* UIView+FindSubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FindSubView.m"; sourceTree = "<group>"; };
-		325AFEB61FC02A3E009FF8B1 /* UIView+LPDBorders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LPDBorders.h"; sourceTree = "<group>"; };
-		325AFEB71FC02A3F009FF8B1 /* UIView+LPDBorders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LPDBorders.m"; sourceTree = "<group>"; };
-		325AFEB91FC02A51009FF8B1 /* UIView+LPDBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LPDBadge.h"; sourceTree = "<group>"; };
-		325AFEBA1FC02A51009FF8B1 /* UIView+LPDBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LPDBadge.m"; sourceTree = "<group>"; };
 		325AFEBC1FC02A75009FF8B1 /* UIView+CornerRadii.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CornerRadii.h"; sourceTree = "<group>"; };
 		325AFEBD1FC02A75009FF8B1 /* UIView+CornerRadii.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CornerRadii.m"; sourceTree = "<group>"; };
-		325AFEC01FC02ADC009FF8B1 /* UIScreen+LPDAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+LPDAccessor.h"; sourceTree = "<group>"; };
-		325AFEC11FC02ADC009FF8B1 /* UIScreen+LPDAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+LPDAccessor.m"; sourceTree = "<group>"; };
 		325AFEC31FC02B0D009FF8B1 /* UINavigationItem+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+Addition.h"; sourceTree = "<group>"; };
 		325AFEC41FC02B0D009FF8B1 /* UINavigationItem+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+Addition.m"; sourceTree = "<group>"; };
-		325AFEC61FC02BBE009FF8B1 /* UIImage+LPDAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LPDAddition.h"; sourceTree = "<group>"; };
-		325AFEC71FC02BBE009FF8B1 /* UIImage+LPDAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LPDAddition.m"; sourceTree = "<group>"; };
 		328505921F9F51ED0098E2C0 /* UIDevice+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Extension.h"; sourceTree = "<group>"; };
 		328505931F9F51ED0098E2C0 /* UIDevice+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Extension.m"; sourceTree = "<group>"; };
 		328505961F9F52010098E2C0 /* UIActionSheet+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+Extension.h"; sourceTree = "<group>"; };
@@ -367,6 +356,8 @@
 		328505AF1F9F57D30098E2C0 /* NSString+FitLines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FitLines.m"; sourceTree = "<group>"; };
 		328505B21F9F57FA0098E2C0 /* NSString+Attributed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Attributed.h"; sourceTree = "<group>"; };
 		328505B31F9F57FA0098E2C0 /* NSString+Attributed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Attributed.m"; sourceTree = "<group>"; };
+		329AD3721FC030190036CF6D /* UIScreen+Accessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+Accessor.h"; sourceTree = "<group>"; };
+		329AD3731FC030190036CF6D /* UIScreen+Accessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+Accessor.m"; sourceTree = "<group>"; };
 		32A7AA771FB3DA8F004B21D1 /* XXObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXObject.h; sourceTree = "<group>"; };
 		32A7AA781FB3DA8F004B21D1 /* XXObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXObject.m; sourceTree = "<group>"; };
 		4C3894ED1F64E18C00BD95ED /* CIImage+Screenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CIImage+Screenshot.h"; sourceTree = "<group>"; };
@@ -577,8 +568,6 @@
 		32077C241F5FEEDF006E4C70 /* UIImageView */ = {
 			isa = PBXGroup;
 			children = (
-				325AFEC61FC02BBE009FF8B1 /* UIImage+LPDAddition.h */,
-				325AFEC71FC02BBE009FF8B1 /* UIImage+LPDAddition.m */,
 				32077C251F5FEEF7006E4C70 /* UIImageView+CornerRadius.h */,
 				32077C261F5FEEF7006E4C70 /* UIImageView+CornerRadius.m */,
 				32077C281F5FEF7B006E4C70 /* UIImageView+Reflect.h */,
@@ -607,10 +596,6 @@
 			children = (
 				325AFEBC1FC02A75009FF8B1 /* UIView+CornerRadii.h */,
 				325AFEBD1FC02A75009FF8B1 /* UIView+CornerRadii.m */,
-				325AFEB91FC02A51009FF8B1 /* UIView+LPDBadge.h */,
-				325AFEBA1FC02A51009FF8B1 /* UIView+LPDBadge.m */,
-				325AFEB61FC02A3E009FF8B1 /* UIView+LPDBorders.h */,
-				325AFEB71FC02A3F009FF8B1 /* UIView+LPDBorders.m */,
 				32077C391F5FF3CD006E4C70 /* UIView+Position.h */,
 				32077C3A1F5FF3CD006E4C70 /* UIView+Position.m */,
 				32077C3C1F5FF410006E4C70 /* UIView+Gesture.h */,
@@ -974,8 +959,8 @@
 		325AFEBF1FC02AD4009FF8B1 /* UIScreen */ = {
 			isa = PBXGroup;
 			children = (
-				325AFEC01FC02ADC009FF8B1 /* UIScreen+LPDAccessor.h */,
-				325AFEC11FC02ADC009FF8B1 /* UIScreen+LPDAccessor.m */,
+				329AD3721FC030190036CF6D /* UIScreen+Accessor.h */,
+				329AD3731FC030190036CF6D /* UIScreen+Accessor.m */,
 			);
 			path = UIScreen;
 			sourceTree = "<group>";
@@ -1168,17 +1153,16 @@
 				3213735A1F62665B00E15D0A /* NSData+Base64.m in Sources */,
 				32077C2A1F5FEF7B006E4C70 /* UIImageView+Reflect.m in Sources */,
 				321372F81F61621C00E15D0A /* UITextView+PlaceHolder.m in Sources */,
+				329AD3741FC030190036CF6D /* UIScreen+Accessor.m in Sources */,
 				32077C6B1F600C7A006E4C70 /* UINavigationItem+Margin.m in Sources */,
 				328505981F9F52010098E2C0 /* UIActionSheet+Extension.m in Sources */,
 				3213738F1F626E1000E15D0A /* NSUserDefaults+SafeAccess.m in Sources */,
-				325AFEC21FC02ADC009FF8B1 /* UIScreen+LPDAccessor.m in Sources */,
 				321372FB1F6162C800E15D0A /* UITextView+InputLengthCalculate.m in Sources */,
 				321373321F616A1900E15D0A /* UIButton+Badge.m in Sources */,
 				321373081F61645800E15D0A /* UITextField+InputLimit.m in Sources */,
 				32077C2D1F5FEFAA006E4C70 /* UIImageView+FaceAwareFill.m in Sources */,
 				325AFEAC1FC02738009FF8B1 /* NSNull+NSNullSafe.m in Sources */,
 				321373341F616A1900E15D0A /* UIButton+Indicator.m in Sources */,
-				325AFEBB1FC02A51009FF8B1 /* UIView+LPDBadge.m in Sources */,
 				32077C511F5FFA19006E4C70 /* UIImage+Color.m in Sources */,
 				32077C6E1F600CCC006E4C70 /* UINavigationItem+Target.m in Sources */,
 				3285059E1F9F53940098E2C0 /* UILabel+Extension.m in Sources */,
@@ -1197,7 +1181,6 @@
 				325AFEB51FC029E5009FF8B1 /* UIView+FindSubView.m in Sources */,
 				32077C3B1F5FF3CD006E4C70 /* UIView+Position.m in Sources */,
 				32077C271F5FEEF7006E4C70 /* UIImageView+CornerRadius.m in Sources */,
-				325AFEB81FC02A3F009FF8B1 /* UIView+LPDBorders.m in Sources */,
 				321373271F6169B100E15D0A /* UIColor+Gradient.m in Sources */,
 				3213736F1F626A9700E15D0A /* NSDate+YYAdd.m in Sources */,
 				321373931F626E8D00E15D0A /* NSURL+Param.m in Sources */,
@@ -1258,7 +1241,6 @@
 				3213730C1F61660900E15D0A /* UITableView+Extension.m in Sources */,
 				4C3894EF1F64E18C00BD95ED /* CIImage+Screenshot.m in Sources */,
 				32077C641F600AE8006E4C70 /* UIColor+Hex.m in Sources */,
-				325AFEC81FC02BBE009FF8B1 /* UIImage+LPDAddition.m in Sources */,
 				320695A41F600F780009FFDA /* UIResponder+Chain.m in Sources */,
 				321373361F616A1900E15D0A /* UIButton+TouchAreaInsets.m in Sources */,
 				325AFEA51FC0259A009FF8B1 /* NSDate+Addition.m in Sources */,
